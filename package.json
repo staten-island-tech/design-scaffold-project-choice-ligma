@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/staten-island-tech/design-scaffold-project-choice-ligma/issues"
   },
-  "homepage": "https://github.com/staten-island-tech/design-scaffold-project-choice-ligma#readme"
+  "homepage": "https://github.com/staten-island-tech/design-scaffold-project-choice-ligma#readme",
+  "dependencies": {
+    "gsap": "^3.9.1"
+  }
 }
