@@ -47,7 +47,7 @@ const hawaii = [
   {
     name: "Legends",
     subname: "The Legend of Mokoli'l",
-    description: "Mokoli’i refers to “little lizard”, or the remnants of a tail of a legendary lizard whose back is very visible as the Kualoa mountain range. In fact, “Kualoa” means “long, large back”, referring to the long large back of a giant lizard or dinosaur. Legend has it that Hi’iakaikapoliopele, one of the sisters to Pele, the goddess who lives at Halema’uma’u at the current volcano on Hawai’i island, passed through the Kualoa area one day. This large lizard or mo’o gave chase to her. She killed him, and one sign of this battle is the remnant tail in the ocean, still seen today.",
+    description: "Mokoli’i refers to 'little lizard', or the remnants of a tail of a legendary lizard whose back is very visible as the Kualoa mountain range. In fact, 'Kualoa' means 'long, large back', referring to the long large back of a giant lizard or dinosaur. Legend has it that Hi’iakaikapoliopele, one of the sisters to Pele, the goddess who lives at Halema’uma’u at the current volcano on Hawai’i island, passed through the Kualoa area one day. This large lizard or mo’o gave chase to her. She killed him, and one sign of this battle is the remnant tail in the ocean, still seen today.",
     img:
   },
   {
@@ -59,6 +59,6 @@ const hawaii = [
 ]
 
 const DOMSelectors {
-
+  
 };
 
