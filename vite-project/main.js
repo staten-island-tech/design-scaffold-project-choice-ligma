@@ -58,8 +58,8 @@ const hawaii = [
   },
 ];
 
-const DOMSelectors {
-  
+const DOMSelectors = {
+
 };
 
 
