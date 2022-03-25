@@ -3,7 +3,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
   margin-top: 60px;
 }
 
@@ -32,5 +31,40 @@
   --h2: 3.157rem; 
   --h3: 2.369rem; 
 
+  /*font family*/
+  --pink-header: font-family: 'Montagu Slab', serif;
+  --blue-header: font-family: 'Quicksand', sans-serif;
   /*intentions (optional)*/ 
 }
+
+.card {
+  position: absolute;
+  width: 360px;
+  height: 568px;
+  left: 35px;
+  top: 179px;
+  background: #FB6F92;
+}
+
+.header {
+  position: absolute;
+  width: 359px;
+  height: 78px;
+  left: 35px;
+  top: 28px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.subheader {
+  position: absolute;
+  width: 305px;
+  height: 40px;
+  left: 62px;
+  top: 123px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  text-align: center;
+}
+

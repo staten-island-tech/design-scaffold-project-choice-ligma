@@ -1,7 +1,7 @@
 import './style.css'
 import { gsap } from "gsap"
 
-const hawaii = [
+const sections = [
   {
     name: "Food",
     subname: "All-Natural Shave Ice",
@@ -58,8 +58,19 @@ const hawaii = [
   },
 ];
 
-const DOMSelectors {
-  
+const DOMSelectors = {
+  card: document.querySelector(".card"),
+  display: document.querySelector(".info"),
 };
 
-
+sections.forEach((section, index) => {
+  DOMSelectors.display.insertAdjacentHTML(
+    "afterbegin",
+    `<div class="card" id="${index}">
+      <img class="img"> src="${section.img}" alt="${section.name}">
+      <div class="title">${section.name}</div>
+      <div class="subtitle">${section.subname}</div>
+      <p class="description">${section.description}</p>
+    </div>`
+  );
+});
