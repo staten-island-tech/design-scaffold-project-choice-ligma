@@ -61,6 +61,7 @@ const sections = [
 const DOMSelectors = {
   card: document.querySelector(".card"),
   display: document.querySelector(".info"),
+
 };
 
 sections.forEach((section, index) => {
