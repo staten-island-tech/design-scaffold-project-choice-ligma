@@ -32,8 +32,8 @@
   --h3: 2.369rem; 
 
   /*font family*/
-  --pink-header: font-family: 'Montagu Slab', serif;
-  --blue-header: font-family: 'Quicksand', sans-serif;
+  --pink-font: font-family: 'Montagu Slab', serif;
+  --blue-font: font-family: 'Quicksand', sans-serif;
   /*intentions (optional)*/ 
 }
 
@@ -41,38 +41,33 @@
   background-color: #FFE5EC;
 }
 
-.header {
-  position: absolute;
-  width: 359px;
-  height: 78px;
-  left: 35px;
-  top: 28px;
+#header {
+  height: 6rem;
+  margin: 3rem 4rem 3rem 4rem;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   background-color: #FFB3C6;
+  text-align: center;
+  font-family: var(--pink-font);
+  font-size: var(--h1);
 }
 
 .subheader {
-  position: absolute;
-  width: 305px;
-  height: 40px;
-  left: 62px;
-  top: 123px;
+  text-align: center;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 41px;
-  text-align: center;
 }
 
 .card {
-  position: absolute;
-  width: 360px;
-  height: 568px;
-  left: 35px;
-  top: 179px;
-  background: #FB6F92;
+  background-color: #FF8FAB;
+  border: 3px solid #FB6F92;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-
-
-
+.title {
+  text-align: center;
+  font-family: var(--pink-font);
+  font-size: var(--h2);
+}
