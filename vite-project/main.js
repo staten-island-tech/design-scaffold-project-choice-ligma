@@ -67,11 +67,11 @@ const DOMSelectors = {
 sections.forEach((section, index) => {
   DOMSelectors.display.insertAdjacentHTML(
     "afterbegin",
-    `<div class="card" id="${index}">
+    `<div class="title">${section.name}</div>
+      <div class="card" id="${index}">
       <img class="img"> src="${section.img}" alt="${section.name}">
-      <div class="title">${section.name}</div>
       <div class="subtitle">${section.subname}</div>
       <p class="description">${section.description}</p>
-    </div>`
+      </div>`
   );
 });
