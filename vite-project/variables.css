@@ -25,7 +25,6 @@ h1, h2, h3 {
     background-color: #FFE5EC;
 }
 
-
 #header {
     height: 6rem;
     margin: 3rem 4rem 3rem 4rem;
@@ -35,7 +34,7 @@ h1, h2, h3 {
     font-family: var(--pink-font);
     font-size: var(--h1);
 }
-  
+
 .subheader {
     text-align: center;
     font-style: normal;
@@ -43,7 +42,7 @@ h1, h2, h3 {
     font-size: 32px;
     line-height: 41px;
 }
-  
+
 .card {
     background-color: #FF8FAB;
     border: 3px solid #FB6F92;
@@ -52,27 +51,32 @@ h1, h2, h3 {
     margin: 1rem 4rem 3rem 4rem;
     padding: 2rem 4rem 6rem 4rem;
 }
-  
+
+#navbar{
+    display: flex;
+    font-size: var(--h3);
+}
+
 .navbar-list-sections {
     justify-content: space-evenly;
 }
-  
+
 .title {
     text-align: center;
     font-family: var(--pink-font);
     font-size: var(--h2);
 }
-  
+
 .img {
     align-items: center;
 }
-  
+
 .subtitle {
     text-align: center;
     font-family: var(--pink-font);
     font-size: var(--h3);
 }
-  
+
 .description {
     font-family: var(--pink-font);
     margin: 1rem 2rem 1rem 2rem;

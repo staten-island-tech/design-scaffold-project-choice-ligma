@@ -33,5 +33,9 @@
   --h2: 3.157rem; 
   --h3: 2.369rem; 
 
+  /*font family*/
+  --pink-font: font-family: 'Montagu Slab', serif;
+  --blue-font: font-family: 'Quicksand', sans-serif;
+
   /*intentions (optional)*/ 
 }
