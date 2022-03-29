@@ -81,6 +81,9 @@
 
 .img {
   align-items: center;
+  width: 90%;
+  height: 90%;
+  object-position: 50% 50%;
 }
 
 .subtitle {
