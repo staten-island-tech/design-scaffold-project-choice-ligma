@@ -71,30 +71,38 @@
 
 .navbar-list-sections {
   justify-content: space-evenly;
+  font-family: var(--pink-font);
+  font-size: var(--h4);
 }
 
 .title {
   text-align: center;
+  color: #FB6F92;
   font-family: var(--pink-font);
   font-size: var(--h2);
 }
 
 .img {
-  align-items: center;
-  width: 90%;
-  height: 90%;
-  object-position: 50% 50%;
+  align-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 .subtitle {
   text-align: center;
+  color: white;
   font-family: var(--pink-font);
   font-size: var(--h3);
 }
 
 .description {
+  text-align: center;
+  color: white;
   font-family: var(--pink-font);
   margin: 1rem 2rem 1rem 2rem;
 }
 
-
+.bottom {
+  padding: 4rem;
+  background-color: var(--pink-bottom);
+}

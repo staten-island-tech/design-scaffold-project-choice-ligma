@@ -30,7 +30,7 @@ const sections = [
     name: "History",
     subname: "Origins",
     description: "The Hawaiian Islands were first settled as early as 400 C.E., when Polynesians 2000 miles away traveled to Hawaii’s Big Island in canoes. Highly skilled farmers and fishermen, Hawaiians lived in small communities ruled by chieftains. In 1820, Western traders and whalers came to the islands, bringing with them diseases that devastated the native Hawaiian population. In 1893, American colonists controlled Hawaii’s sugar-based economy, overthrew the kingdom and established the Republic of Hawaii.",
-    img: "/img5.jpg",
+    img: "/img5.jpeg",
   },
   {
     name: "Nature",
