@@ -54,7 +54,7 @@ const sections = [
     name: "Islands",
     subname: "Islands To Visit",
     description: "Choosing Hawaii is the easy part — but which islands to visit? From tourist magnets to secluded hideaways, follow our guide to find your Hawaiian paradise. There are six major islands to visit in Hawaii: Kauai, Oahu, Molokai, Lanai, Maui, and the island of Hawaii! Each has its own distinct personality, adventures, activities and sights. We invite you to explore the Islands of Aloha to find your own heavenly Hawaii experiences.",
-    img: "/img9.jpg",
+    img: "/img9.jpeg",
   },
 ];
 
@@ -69,7 +69,7 @@ sections.forEach((section, index) => {
     "afterbegin",
     `<div class="title">${section.name}</div>
       <div class="card" id="${index}">
-      <img class="img"> src="${section.img}" alt="${section.name}">
+      <img class="img" src="${section.img}" alt="${section.name}">
       <div class="subtitle">${section.subname}</div>
       <p class="description">${section.description}</p>
       </div>`

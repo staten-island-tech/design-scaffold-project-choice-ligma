@@ -27,9 +27,10 @@
   --blue-text: #41363b; 
 
   /*font sizes*/
-  --h1: 4.209rem;
-  --h2: 3.157rem; 
-  --h3: 2.369rem; 
+  --h1: 4.5rem;
+  --h2: 4rem; 
+  --h3: 2.5rem;
+  --h4: 1.5rem;
 
   /*font family*/
   --pink-font: font-family: 'Montagu Slab', serif;
@@ -64,6 +65,12 @@
   border: 3px solid #FB6F92;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 1rem 4rem 3rem 4rem;
+  padding: 2rem 4rem 6rem 4rem;
+}
+
+.navbar-list-sections {
+  justify-content: space-evenly;
 }
 
 .title {
@@ -71,3 +78,20 @@
   font-family: var(--pink-font);
   font-size: var(--h2);
 }
+
+.img {
+  align-items: center;
+}
+
+.subtitle {
+  text-align: center;
+  font-family: var(--pink-font);
+  font-size: var(--h3);
+}
+
+.description {
+  font-family: var(--pink-font);
+  margin: 1rem 2rem 1rem 2rem;
+}
+
+
