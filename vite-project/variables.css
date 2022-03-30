@@ -22,7 +22,7 @@ h1, h2, h3 {
 }
 
 #hawaii {
-    background-color: #FFE5EC;
+    background-color: var(--pink-bg);
 }
 
 
@@ -65,6 +65,7 @@ h1, h2, h3 {
   
 .img {
     align-items: center;
+    width: 45%;
 }
   
 .subtitle {
@@ -75,5 +76,6 @@ h1, h2, h3 {
   
 .description {
     font-family: var(--pink-font);
+    font-size: var(--h4);
     margin: 1rem 2rem 1rem 2rem;
 }
