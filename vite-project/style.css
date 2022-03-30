@@ -17,6 +17,7 @@
   --pink-card: #ff8fab; 
   --pink-border: #fb6f92; 
   --pink-bottom: #ffc2d1; 
+  --pink-text: white;
 
   /*theme 2*/
   --blue-bg: #caf0f8; 
@@ -38,8 +39,35 @@
   /*intentions (optional)*/ 
 }
 
+.pinktheme{
+  --pink-bg: #ffe5ec; 
+  --pink-header: #ffb3c6; 
+  --pink-card: #ff8fab; 
+  --pink-border: #fb6f92; 
+  --pink-bottom: #ffc2d1;
+  --pink-font: font-family: 'Montagu Slab', serif;
+}
+
+.bluetheme{
+  --blue-bg: #caf0f8; 
+  --blue-border: #00ccf5; 
+  --blue-bottom: #0ad6ff; 
+  --blue-card: #90e0ef; 
+  --blue-ellipse: #ade8f4; 
+  --blue-text: #41363b;
+  --blue-font: font-family: 'Quicksand', sans-serif;
+}
+
 .hawaii {
   background-color: #FFE5EC;
+}
+
+.themebtn {
+  text-align: center;
+  font-family: var(--pink-font);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  background-color: #fffbf1;
 }
 
 #header {

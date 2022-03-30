@@ -61,7 +61,7 @@ const sections = [
 const DOMSelectors = {
   card: document.querySelector(".card"),
   display: document.querySelector(".info"),
-
+  themebtn: document.querySelector(".themebtn"),
 };
 
 sections.forEach((section, index) => {
@@ -74,4 +74,14 @@ sections.forEach((section, index) => {
       <p class="description">${section.description}</p>
       </div>`
   );
+});
+
+DOMSelectors.themebtn.addEventListener("click", function () {
+  if (document.body.classList.contains("pinktheme")) {
+    document.body.classList.add("bluetheme");
+    document.body.classList.remove("pinktheme");
+  } else {
+    document.body.classList.add("pinktheme");
+    document.body.classList.remove("bluetheme");
+  }
 });
