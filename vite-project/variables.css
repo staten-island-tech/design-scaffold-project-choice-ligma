@@ -22,7 +22,7 @@ h1, h2, h3 {
 }
 
 #hawaii {
-    background-color: #FFE5EC;
+    background-color: var(--pink-bg);
 }
 
 #header {
