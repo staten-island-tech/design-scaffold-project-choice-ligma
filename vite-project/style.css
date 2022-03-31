@@ -40,11 +40,8 @@
 }
 
 .pinktheme{
-  --pink-bg: #ffe5ec; 
-  --pink-header: #ffb3c6; 
-  --pink-card: #ff8fab; 
-  --pink-border: #fb6f92; 
-  --pink-bottom: #ffc2d1;
+  --primary: var(--pink-bg);
+  --secondary: var(--pink-card);
   --pink-font: font-family: 'Montagu Slab', serif;
 }
 
@@ -62,12 +59,13 @@
   background-color: #FFE5EC;
 }
 
-.themebtn {
+.btn {
   text-align: center;
   font-family: var(--pink-font);
   padding: 1rem 2rem;
   border-radius: 2rem;
-  background-color: #fffbf1;
+  background-color: #ffc2d1;
+  margin-left: 50rem;
 }
 
 #header {
@@ -93,7 +91,7 @@
   border: 3px solid #FB6F92;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin: 1rem 4rem 3rem 4rem;
+  margin: 1rem 6rem 3rem 6rem;
   padding: 2rem 4rem 6rem 4rem;
 }
 
@@ -133,4 +131,9 @@
 .bottom {
   padding: 4rem;
   background-color: var(--pink-bottom);
+}
+
+.whales {
+  margin-left: 45rem;
+  width: 12rem;
 }

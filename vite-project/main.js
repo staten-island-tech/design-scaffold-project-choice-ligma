@@ -61,7 +61,8 @@ const sections = [
 const DOMSelectors = {
   card: document.querySelector(".card"),
   display: document.querySelector(".info"),
-  themebtn: document.querySelector(".themebtn"),
+  btn: document.querySelector("#btn"),
+  themebtn: document.getElementById("themebtn"),
 };
 
 sections.forEach((section, index) => {
