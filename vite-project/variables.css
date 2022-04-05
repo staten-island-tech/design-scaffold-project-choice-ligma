@@ -32,8 +32,9 @@ h1, h2, , h4 {
 #header {
     height: 6rem;
     margin: 3rem 4rem 3rem 4rem;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    background-color: #FFB3C6;
+    filter: drop-shadow(0px 4px 4px var(--black));
+    background-color: var(--pink-header);
+    text-align: center;
     font-family: var(--pink-font);
     font-size: var(--h1);
 }
@@ -46,37 +47,63 @@ h1, h2, , h4 {
 }
 
 .card {
-    background-color: #FF8FAB;
-    border: 3px solid #FB6F92;
+    background-color: var(--pink-card);
+    border: 3px solid var(--pink-border);
     box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin: 1rem 4rem 3rem 4rem;
+    box-shadow: 0px 4px 4px var(--black);
+    margin: 1rem 6rem 3rem 6rem;
     padding: 2rem 4rem 6rem 4rem;
 }
   
 .navbar-list-sections {
     justify-content: space-evenly;
+    font-family: var(--pink-font);
+    font-size: var(--h4);
 }
   
 .title {
     text-align: center;
+    color: var(--pink-border);
     font-family: var(--pink-font);
     font-size: var(--h2);
 }
   
 .img {
-    align-items: center;
-    width: 45%;
+    align-content: center;
+    width: 100%;
+    margin-bottom: 1rem;
 }
   
 .subtitle {
     text-align: center;
+    color: var(--white);
     font-family: var(--pink-font);
     font-size: var(--h3);
 }
   
 .description {
     font-family: var(--pink-font);
+    color: var(--white);
     font-size: var(--h4);
     margin: 1rem 2rem 1rem 2rem;
 }
+
+.bottom {
+    padding: 4rem;
+    background-color: var(--pink-bottom);
+}
+  
+.whales {
+    margin-left: 45rem;
+    width: 12rem;
+}
+
+.btn {
+    text-align: center;
+    font-family: var(--pink-font);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    background-color: var(--pink-bottom);
+    margin-left: 50rem;
+}
+  
