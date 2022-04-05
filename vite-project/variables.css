@@ -53,30 +53,28 @@ h1, h2, , h4 {
     margin: 1rem 4rem 3rem 4rem;
     padding: 2rem 4rem 6rem 4rem;
 }
-
-#navbar{
-    display: flex;
-    font-size: var(--h3);
-}
-
+  
 .navbar-list-sections {
     justify-content: space-evenly;
 }
-
+  
 .title {
+    text-align: center;
     font-family: var(--pink-font);
     font-size: var(--h2);
 }
-
+  
 .img {
     align-items: center;
+    width: 45%;
 }
-
+  
 .subtitle {
+    text-align: center;
     font-family: var(--pink-font);
     font-size: var(--h3);
 }
-
+  
 .description {
     font-family: var(--pink-font);
     font-size: var(--h4);
