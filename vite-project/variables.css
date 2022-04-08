@@ -12,7 +12,7 @@
 #header {
     height: 6rem;
     margin: 3rem 4rem 3rem 4rem;
-    filter: drop-shadow(0px 4px 4px var(--black));
+    filter: drop-shadow(0rem 0.5rem 0.5rem var(--black));
     background-color: var(--pink-header);
     text-align: center;
     font-family: var(--pink-font);
@@ -30,7 +30,7 @@
     background-color: var(--pink-card);
     border: 3px solid var(--pink-border);
     box-sizing: border-box;
-    box-shadow: 0px 4px 4px var(--black);
+    box-shadow: 0rem 0.5rem 0.5rem var(--black);
     margin: 1rem 6rem 3rem 6rem;
     padding: 2rem 4rem 6rem 4rem;
 }
