@@ -1,8 +1,58 @@
+@import url(variables.css);
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
   margin-top: 60px;
+}
+ 
+:root {
+  /*colors*/
+  --black: #000000;
+  --white: #ffffff;
+ 
+  /*theme 1*/
+  --pink-bg: #ffe5ec;
+  --pink-header: #ffb3c6;
+  --pink-card: #ff8fab;
+  --pink-border: #fb6f92;
+  --pink-bottom: #ffc2d1;
+  --pink-text: white;
+ 
+  /*theme 2*/
+  --blue-bg: #caf0f8;
+  --blue-border: #00ccf5;
+  --blue-bottom: #0ad6ff;
+  --blue-card: #90e0ef;
+  --blue-ellipse: #ade8f4;
+  --blue-text: #41363b;
+ 
+  /*font sizes*/
+  --h1: 4.5rem;
+  --h2: 4rem;
+  --h3: 2.5rem;
+  --h4: 1.5rem;
+ 
+  /*font family*/
+  --pink-font: font-family: 'Montagu Slab', serif;
+  --blue-font: font-family: 'Quicksand', sans-serif;
+  /*intentions (optional)*/
+ 
+}
+ 
+.pinktheme{
+  --primary: var(--pink-bg);
+  --secondary: var(--pink-card);
+  --pink-font: font-family: 'Montagu Slab', serif;
+}
+ 
+.bluetheme{
+  --blue-bg: #caf0f8;
+  --blue-border: #00ccf5;
+  --blue-bottom: #0ad6ff;
+  --blue-card: #90e0ef;
+  --blue-ellipse: #ade8f4;
+  --blue-text: #41363b;
+  --blue-font: font-family: 'Quicksand', sans-serif;
 }

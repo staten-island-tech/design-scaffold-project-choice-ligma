@@ -1,6 +1,33 @@
 import './style.css'
+import { sections } from './catelog';
+import { gsap } from "gsap"
 
-document.querySelector('#app').innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`
+const DOMSelectors = {
+  card: document.querySelector(".card"),
+  display: document.querySelector(".info"),
+  btn: document.querySelector("#btn"),
+  themebtn: document.getElementById("themebtn"),
+};
+
+sections.forEach((section, index) => {
+  DOMSelectors.display.insertAdjacentHTML(
+    "afterbegin",
+    `<h2 class="title">${section.name}</h2>
+      <div class="card" id="${index}">
+      <img class="img" src="${section.img}" alt="${section.name}">
+      <div class="subtitle">${section.subname}</div>
+      <p class="description">${section.description}</p>
+      </div>`
+  );
+});
+
+DOMSelectors.themebtn.addEventListener("click", function () {
+  if (document.body.classList.contains("pinktheme")) {
+    document.body.classList.add("bluetheme");
+    document.body.classList.remove("pinktheme");
+  } else {
+    document.body.classList.add("pinktheme");
+    document.body.classList.remove("bluetheme");
+  }
+});
+
