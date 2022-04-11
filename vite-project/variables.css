@@ -33,9 +33,22 @@
     box-shadow: 0rem 0.5rem 0.5rem var(--black);
     margin: 1rem 6rem 3rem 6rem;
     padding: 2rem 4rem 6rem 4rem;
+    width: 90vw;
 }
 
-.navbar-list-sections {
+#navbar {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    background-color: var(--pink-border);
+    color: var(--white);
+}
+
+.navbar-list-sections{
     justify-content: space-evenly;
     font-family: var(--pink-font);
     font-size: var(--h4);
@@ -86,4 +99,3 @@
     background-color: var(--pink-bottom);
     margin-left: 50rem;
 }
-  
