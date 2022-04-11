@@ -1,5 +1,5 @@
 import './style.css'
-import { sections } from './catelog';
+import { sections } from './catalog';
 import { gsap } from "gsap"
 
 const DOMSelectors = {
