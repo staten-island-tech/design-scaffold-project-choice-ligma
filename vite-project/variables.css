@@ -64,9 +64,9 @@ h1, h2, h3 {
     list-style:none ;
 }
 .navbar-list-sections {
-    justify-content: space-evenly;
-    font-family: var(--blue-font);
+    font-family: var(--white);
     font-size: var(--h4);
+    padding:0.75rem;
 }
   
 .title {
