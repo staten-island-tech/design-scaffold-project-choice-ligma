@@ -51,7 +51,18 @@ h1, h2, h3 {
     margin: 1rem 6rem 3rem 6rem;
     padding: 2rem 4rem 6rem 4rem;
 }
-  
+
+.navbar-list {
+    display: flex;
+    justify-content: space-evenly;
+    padding:1rem;
+    margin-top: 2rem;
+    align-items: center;
+    flex-direction: row;
+    background-color:var(--blue-border);
+    color:var(--blue-bg);
+    list-style:none ;
+}
 .navbar-list-sections {
     justify-content: space-evenly;
     font-family: var(--blue-font);
