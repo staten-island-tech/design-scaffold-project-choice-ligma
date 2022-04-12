@@ -42,3 +42,4 @@ islands.forEach((island, index) => {
     </div>`
   );
 });
+
