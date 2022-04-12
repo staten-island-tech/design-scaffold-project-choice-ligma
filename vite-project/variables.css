@@ -5,22 +5,6 @@
     font-size: 62.5%;
 } 
 
-h1 {
-    font-size: var(--h1);
-}
-
-h2 {
-    font-size: var(--h2);
-}
-
-h3 {
-    font-size: var(--h3);
-}
-
-h1, h2, h3 {
-    text-align: center;
-}
-
 #hawaii {
     background-color: var(--pink-bg);
 }
@@ -28,41 +12,54 @@ h1, h2, h3 {
 #header {
     height: 6rem;
     margin: 3rem 4rem 3rem 4rem;
-    filter: drop-shadow(0px 4px 4px var(--black));
+    filter: drop-shadow(0rem 0.5rem 0.5rem var(--black));
     background-color: var(--pink-header);
     text-align: center;
     font-family: var(--pink-font);
     font-size: var(--h1);
 }
-  
+
 .subheader {
-    text-align: center;
     font-style: normal;
     font-weight: 400;
     font-size: var(--h1);
     line-height: 41px;
 }
-  
+
 .card {
     background-color: var(--pink-card);
     border: 3px solid var(--pink-border);
     box-sizing: border-box;
-    box-shadow: 0px 4px 4px var(--black);
+    box-shadow: 0rem 0.5rem 0.5rem var(--black);
     margin: 1rem 6rem 3rem 6rem;
     padding: 2rem 4rem 6rem 4rem;
+    width: 90vw;
 }
-  
-.navbar-list-sections {
+
+.navbar-list {
+    display: flex; 
     justify-content: space-evenly;
-    font-family: var(--pink-font);
-    font-size: var(--h4);
+    padding: 1rem;
+    margin-top: 2rem;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--pink-border);
+    color: var(--white);
+    list-style: none;
 }
-  
+
+.navbar-list-sections{
+    font-family: var(--pink-font);
+    font-size: var(--h3);
+    padding: 0.25rem;
+} 
+
 .title {
     text-align: center;
     color: var(--pink-border);
     font-family: var(--pink-font);
     font-size: var(--h2);
+    padding: 2rem;
 }
   
 .img {
@@ -103,4 +100,3 @@ h1, h2, h3 {
     background-color: var(--pink-bottom);
     margin-left: 50rem;
 }
-  

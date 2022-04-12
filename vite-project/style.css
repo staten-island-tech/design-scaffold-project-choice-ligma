@@ -30,13 +30,14 @@
 
   /*font sizes*/
   --h1: 4.5rem;
-  --h2: 4rem; 
+  --h2: 3.5rem; 
   --h3: 2.5rem;
   --h4: 1.5rem;
 
   /*font family*/
   --pink-font: font-family: 'Montagu Slab', serif;
   --blue-font: font-family: 'Quicksand', sans-serif;
+
   /*intentions (optional)*/
   
 }
