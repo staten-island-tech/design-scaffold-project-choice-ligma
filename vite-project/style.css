@@ -162,6 +162,13 @@
   margin: 1rem 2rem 1rem 2rem;
 }
 
+.island-img {
+  align-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
 .bottom {
   padding: 4rem;
   background-color: var(--pink-bottom);
