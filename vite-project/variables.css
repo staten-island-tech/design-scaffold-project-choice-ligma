@@ -36,29 +36,30 @@
     width: 90vw;
 }
 
-#navbar {
+.navbar-list {
     display: flex; 
-    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: auto;
+    padding: 1rem;
+    margin-top: 2rem;
     align-items: center;
-    text-align: center;
     flex-direction: row;
     background-color: var(--pink-border);
     color: var(--white);
+    list-style: none;
 }
 
 .navbar-list-sections{
-    justify-content: space-evenly;
     font-family: var(--pink-font);
-    font-size: var(--h4);
-}
-  
+    font-size: var(--h3);
+    padding: 0.25rem;
+} 
+
 .title {
     text-align: center;
     color: var(--pink-border);
     font-family: var(--pink-font);
     font-size: var(--h2);
+    padding: 2rem;
 }
   
 .img {
