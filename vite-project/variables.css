@@ -54,6 +54,11 @@
     padding: 0.25rem;
 } 
 
+.navbar-list-sections:hover{
+    background: var(--white);
+    transition: 0.2s;
+}
+
 .title {
     text-align: center;
     color: var(--pink-border);
