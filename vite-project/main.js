@@ -1,5 +1,6 @@
 import './style.css'
 import { sections } from './catelog';
+import { islands } from './catelog';
 import { gsap } from "gsap"
 
 const DOMSelectors = {
@@ -30,3 +31,15 @@ DOMSelectors.themebtn.addEventListener("click", function () {
     document.body.classList.remove("bluetheme");
   }
 });
+
+islands.forEach((island, index) => {
+  DOMSelectors.display.insertAdjacentHTML(
+    "afterbegin",
+    `<div class="parent island-card" id="${index}">
+      <div class="island-name">${island.name}</div>
+      <img class="island-img" src="${island.img}" alt="${island.name}">
+      <p class="island-description">${island.description}</p>
+    </div>`
+  );
+});
+
