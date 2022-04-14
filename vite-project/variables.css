@@ -20,6 +20,7 @@
 }
 
 .subheader {
+    text-align: center;
     font-style: normal;
     font-weight: 400;
     font-size: var(--h1);
@@ -31,9 +32,8 @@
     border: 3px solid var(--pink-border);
     box-sizing: border-box;
     box-shadow: 0rem 0.5rem 0.5rem var(--black);
-    margin: 1rem 6rem 3rem 6rem;
+    margin: 1% 60% 4rem 6rem;
     padding: 2rem 4rem 6rem 4rem;
-    width: 90vw;
 }
 
 .navbar-list {
@@ -104,4 +104,43 @@
     border-radius: 2rem;
     background-color: var(--pink-bottom);
     margin-left: 50rem;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+  
+.island-card {
+    background-color: var(--pink-card);
+    border: 3px solid #FB6F92;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 1% 60% 4rem 6rem;
+    padding: 2rem 4rem 6rem 4rem;
+}
+  
+.island-name {
+    text-align: center;
+    color: white;
+    font-family: var(--pink-font);
+    font-size: var(--h3);
+  
+}
+  
+.island-description {
+    text-align: center;
+    color: white;
+    font-family: var(--pink-font);
+    margin: 1rem 2rem 1rem 2rem;
+}
+  
+.island-img {
+    align-content: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
