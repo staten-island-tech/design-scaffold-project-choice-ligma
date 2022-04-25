@@ -1,7 +1,7 @@
 import './style.css'
 import { sections } from './catelog';
 import { islands } from './catelog';
-import { gsap } from "gsap"
+import { gsap } from "gsap";
 
 const DOMSelectors = {
   card: document.querySelector(".card"),
