@@ -33,6 +33,7 @@
   --h2: 3.5rem; 
   --h3: 2.5rem;
   --h4: 1.5rem;
+  --h5: 1rem;
 
   /*font family*/
   --pink-font: font-family: 'Montagu Slab', serif;
@@ -137,6 +138,9 @@
   justify-content: space-evenly;
   flex-direction: row;
   align-items: center;
+  width: 40vw;
+  margin: 3rem 60% 4rem 6rem;
+  align-items: center;
 }
 
 .island-card {
@@ -144,7 +148,7 @@
   border: 3px solid #FB6F92;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin: 1% 60% 4rem 6rem;
+  
   padding: 2rem 4rem 6rem 4rem;
 }
 
@@ -161,6 +165,7 @@
   color: white;
   font-family: var(--pink-font);
   margin: 1rem 2rem 1rem 2rem;
+  font-size: var(--h5);
 }
 
 .island-img {
