@@ -119,7 +119,7 @@ const beaches = [
 const museums = [
   {
     name: "Pearl Harbor",
-    description: "",
+    description: "There is a reason that Pearl Harbor is the number one visitor destination in Hawaii and the USS Arizona Memorial is where your Pearl Harbor experience begins. Millions of people from all over the world come to this majestic setting to see for themselves where World War II began for the United States on December 7, 1941. The USS Arizona Memorial is a must-see destination for all individuals coming to Hawaii, drawing more than 1.7 million visitors each year from all over the world. Visitors are free to explore the grounds of the $65 million Pearl Harbor Visitor Center, which was expanded from the original 3 to 17 acres, in December of 2011. The USS Arizona Memorial is built over the remains of the sunken battleship USS Arizona, the final resting place for many of the 1,177 crewmen killed on December 7, 1941, when their ship was bombed by Japanese Naval Forces. This loss of life represents over half of the Americans killed during the worst naval disaster in American history.",
   },
   {
     name: "Bishop Museum",
