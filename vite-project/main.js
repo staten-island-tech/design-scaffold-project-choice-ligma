@@ -1,11 +1,15 @@
 import './style.css'
 import { sections } from './catelog';
-import { islands } from './catelog';
+import { islands } from './island';
 import { gsap } from "gsap"
 
 const DOMSelectors = {
   card: document.querySelector(".card"),
   display: document.querySelector(".info"),
+  islanddisplay: document.querySelector(".islands"),
+  beachdisplay: document.querySelector(".beaches"),
+  volcanodisplay: document.querySelector(".valcanoes"),
+  museumdisplay: document.querySelector(".museums"),
   btn: document.querySelector("#btn"),
   themebtn: document.getElementById("themebtn"),
 };
@@ -33,7 +37,7 @@ DOMSelectors.themebtn.addEventListener("click", function () {
 });
 
 islands.forEach((island, index) => {
-  DOMSelectors.display.insertAdjacentHTML(
+  DOMSelectors.islanddisplay.insertAdjacentHTML(
     "afterbegin",
     `<div class="parent island-card" id="${index}">
       <div class="island-name">${island.name}</div>
