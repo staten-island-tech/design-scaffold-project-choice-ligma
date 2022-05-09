@@ -26,6 +26,17 @@ sections.forEach((section, index) => {
   );
 });
 
+islands.forEach((island, index) => {
+  DOMSelectors.islanddisplay.insertAdjacentHTML(
+    "afterbegin",
+    `<div class="islands parent island-card" id="${index}">
+      <div class="island-name">${island.name}</div>
+      <img class="island-img" src="${island.img}" alt="${island.name}">
+      <p class="island-description">${island.description}</p>
+    </div>`
+  );
+});
+
 DOMSelectors.themebtn.addEventListener("click", function () {
   if (document.body.classList.contains("pinktheme")) {
     document.body.classList.add("bluetheme");
@@ -34,15 +45,4 @@ DOMSelectors.themebtn.addEventListener("click", function () {
     document.body.classList.add("pinktheme");
     document.body.classList.remove("bluetheme");
   }
-});
-
-islands.forEach((island, index) => {
-  DOMSelectors.islanddisplay.insertAdjacentHTML(
-    "afterbegin",
-    `<div class="parent island-card" id="${index}">
-      <div class="island-name">${island.name}</div>
-      <img class="island-img" src="${island.img}" alt="${island.name}">
-      <p class="island-description">${island.description}</p>
-    </div>`
-  );
 });
