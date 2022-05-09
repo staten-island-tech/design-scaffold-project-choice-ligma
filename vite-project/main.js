@@ -31,3 +31,24 @@ DOMSelectors.themebtn.addEventListener("click", function () {
   }
 });
 
+islands.forEach((island, index) => {
+  DOMSelectors.display.insertAdjacentHTML(
+    "afterbegin",
+    `<div class="parent island-card" id="${index}">
+        <div class="island-name">${island.name}</div>
+        <img class="island-img" src="${island.img}" alt="${island.name}">
+        <p class="island-description">${island.description}</p>
+      </div>`
+  );
+});
+
+volcanoes.forEach((volcano, index) => {
+  DOMSelectors.display.insertAdjacentHTML(
+    "afterbegin",
+    `<div class="parent volcano-card" id="${index}">
+        <div class="volcano-name">${volcano.name}</div>
+        <img class="volcano-img" src="${volcano}.img}" alt="${volcano.name}">
+        <p class="volcano-description">${volcano.description}</p>
+      </div>`
+  );
+});
