@@ -43,3 +43,13 @@ islands.forEach((island, index) => {
   );
 });
 
+volcanoes.forEach((volcano, index) => {
+  DOMSelectors.display.insertAdjacentHTML(
+    "afterbegin",
+    `<div class="parent volcano-card" id="${index}">
+        <div class="volcano-name">${volcano.name}</div>
+        <img class="volcano-img" src="${volcano.img}" alt="${volcano.name}">
+        <p class="volcano-description">${volcano.description}</p>
+      </div>`
+  );
+});
