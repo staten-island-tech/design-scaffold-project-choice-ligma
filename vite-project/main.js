@@ -53,3 +53,15 @@ volcanoes.forEach((volcano, index) => {
       </div>`
   );
 });
+
+foods.forEach((food, index) => {
+  DOMSelectors.display.insertAdjacentHTML(
+    "afterbegin",
+    `<div class="parent food-card" id="${index}">
+        <div class="food-name">${food.name}</div>
+        <img class="food-img" src="${food.img}" alt="${food.name}">
+        <p class="food-description">${food.description}</p>
+      </div>`
+  );
+});
+
