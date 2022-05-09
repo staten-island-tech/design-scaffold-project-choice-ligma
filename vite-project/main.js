@@ -47,7 +47,7 @@ volcanoes.forEach((volcano, index) => {
     "afterbegin",
     `<div class="parent volcano-card" id="${index}">
         <div class="volcano-name">${volcano.name}</div>
-        <img class="volcano-img" src="${volcano}.img}" alt="${volcano.name}">
+        <img class="volcano-img" src="${volcano.img}" alt="${volcano.name}">
         <p class="volcano-description">${volcano.description}</p>
       </div>`
   );
