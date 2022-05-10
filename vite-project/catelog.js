@@ -108,7 +108,8 @@ const culture = [
     description: "On its surface, hula is the storytelling dance of the Hawaiian Islands. As with all of Hawaiian culture, when you are fortunate enough to learn more about it, much deeper, more powerful and empowering truths may be revealed. Hula can be paired with chants or contemporary music, slow and sentimental in tempo or fast and energetic. But no matter its style, it is all part of a cultural practice of sharing a trove of stories that connect dancers and audiences to the foundation of Hawaiian ancestral knowledge.",
     img: "/img4.jpg",
   },
-]
+];
+export { culture }
 
 const beaches = [
   {

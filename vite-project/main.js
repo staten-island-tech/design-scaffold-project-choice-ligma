@@ -20,7 +20,7 @@ sections.forEach((section, index) => {
     `<h2 class="title">${section.name}</h2>
       <div class="card" id="${index}">
       <img class="img" src="${section.img}" alt="${section.name}">
-      <div class="subtitle">${section.subname}</div>
+      <div class="name">${section.subname}</div>
       <p class="description">${section.description}</p>
       </div>`
   );
@@ -29,10 +29,10 @@ sections.forEach((section, index) => {
 islands.forEach((island, index) => {
   DOMSelectors.islanddisplay.insertAdjacentHTML(
     "afterbegin",
-    `<div class="islands parent island-card" id="${index}">
-      <div class="island-name">${island.name}</div>
+    `<div class="islands parent card" id="${index}">
+      <div class="name">${island.name}</div>
       <img class="island-img" src="${island.img}" alt="${island.name}">
-      <p class="island-description">${island.description}</p>
+      <p class="description">${island.description}</p>
     </div>`
   );
 });
