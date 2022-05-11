@@ -1,6 +1,7 @@
 import './style.css'
 import { sections } from './catelog';
 import { islands } from './island';
+import { volcano } from './volcano';
 import { gsap } from "gsap"
 
 const DOMSelectors = {
@@ -36,6 +37,8 @@ islands.forEach((island, index) => {
     </div>`
   );
 });
+
+
 
 DOMSelectors.themebtn.addEventListener("click", function () {
   if (document.body.classList.contains("pinktheme")) {
