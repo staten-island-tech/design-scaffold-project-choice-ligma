@@ -3,6 +3,14 @@ import { sections } from './catelog';
 import { islands } from './catelog';
 import { gsap } from "gsap";
 
+const tl = gsap.timeline({ delay: 0.5 }); //sequence animations easily
+
+tl.from("#header", { opacity: 0, duration: 1 });
+tl.to(".img", { 
+  clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%",
+  duration: 0.5,
+});
+
 const DOMSelectors = {
   card: document.querySelector(".card"),
   display: document.querySelector(".info"),
