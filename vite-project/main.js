@@ -2,8 +2,10 @@ import './style.css'
 import { sections } from './catelog';
 import { islands } from './catelog';
 import { gsap } from "gsap";
+import { ScrollTrigger } from 'gsap';
+gsap.registerPlugin(ScrollTrigger);
 
-const tl = gsap.timeline({ delay: 0.5 }); //sequence animations easily
+const tl = gsap.timeline({ scrollTrigger:".header-title", delay: 0.5 }); //sequence animations easily
 
 tl.from("#header", { opacity: 0, duration: 1 });
 tl.to(".img", { 
