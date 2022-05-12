@@ -1,7 +1,6 @@
 import './style.css'
 import { sections } from './catelog';
 import { islands } from './island';
-import { volcano } from './volcano';
 import { gsap } from "gsap"
 
 const DOMSelectors = {
