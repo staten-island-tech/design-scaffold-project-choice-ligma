@@ -7,11 +7,13 @@ gsap.registerPlugin(ScrollTrigger);
 
 const tl = gsap.timeline({ scrollTrigger:".header-title", delay: 0.5 }); //sequence animations easily
 
-tl.from("#header", { opacity: 0, duration: 1 });
+tl.from("#header", { opacity: 0, duration: 1, ease: "ease-out" });
 tl.to(".img", { 
   clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%",
   duration: 0.5,
+  ease: "ease-out",
 });
+
 
 const DOMSelectors = {
   card: document.querySelector(".card"),
