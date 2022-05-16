@@ -1,6 +1,7 @@
 import './style.css'
 import { sections } from './catelog';
 import { islands } from './island';
+import { volcanoes } from './volcano';
 import { gsap } from "gsap"
 
 const DOMSelectors = {
@@ -37,7 +38,16 @@ islands.forEach((island, index) => {
   );
 });
 
-
+volcanoes.forEach((volcano, index) => {
+  DOMSelectors.volcanodisplay.insertAdjacentHTML(
+    "afterbegin",
+    `<div class="volcanoes parent card" id="${index}">
+      <div class="name">${volcano.name}</div>
+      <img class="img" src="${volcano.img}" alt="${volcano.name}">
+      <p class="description">${volcano.description}</p>
+    </div>`
+  );
+});
 
 DOMSelectors.themebtn.addEventListener("click", function () {
   if (document.body.classList.contains("pinktheme")) {
@@ -48,3 +58,5 @@ DOMSelectors.themebtn.addEventListener("click", function () {
     document.body.classList.remove("bluetheme");
   }
 });
+
+gsap
