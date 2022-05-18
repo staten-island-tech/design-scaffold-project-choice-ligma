@@ -119,3 +119,14 @@
     margin-top: 1rem;
 }
 
+.pinktheme{
+    --primary: var(--pink-bg);
+    --secondary: var(--pink-card);
+    --third: var(--pink-font);
+}
+
+.bluetheme{
+    --primary: var(--blue-bg); 
+    --secondary: var(--blue-card);
+    --third:var(--blue-font);
+}

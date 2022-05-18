@@ -32,21 +32,7 @@
   --blue-font: font-family: 'Quicksand', sans-serif;
 
   /*intentions (optional)*/
-  
-}
-
-.pinktheme{
-  --primary: var(--pink-bg);
+  --primary: var(--pink-bg); 
   --secondary: var(--pink-card);
-  --pink-font: font-family: 'Montagu Slab', serif;
-}
-
-.bluetheme{
-  --blue-bg: #caf0f8; 
-  --blue-border: #00ccf5; 
-  --blue-bottom: #0ad6ff; 
-  --blue-card: #90e0ef; 
-  --blue-ellipse: #ade8f4; 
-  --blue-text: #41363b;
-  --blue-font: font-family: 'Quicksand', sans-serif;
+  --third: var(--pink-font); 
 }

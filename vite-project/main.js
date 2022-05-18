@@ -2,17 +2,18 @@ import './style.css'
 import { sections } from './catelog';
 import { islands } from './island';
 import { volcanoes } from './volcano';
-import { gsap } from "gsap"
+import { gsap } from "gsap";
 
 const DOMSelectors = {
+  body: document.getElementById("#hawaii"),
   card: document.querySelector(".card"),
   display: document.querySelector(".info"),
   islanddisplay: document.querySelector(".islands"),
   beachdisplay: document.querySelector(".beaches"),
-  volcanodisplay: document.querySelector(".valcanoes"),
+  volcanodisplay: document.querySelector(".volcanoes"),
   museumdisplay: document.querySelector(".museums"),
-  btn: document.querySelector("#btn"),
-  themebtn: document.getElementById("themebtn"),
+  btn: document.querySelector(".btn"),
+  themebtn: document.getElementById("#themebtn"),
 };
 
 sections.forEach((section, index) => {
