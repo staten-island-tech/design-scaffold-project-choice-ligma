@@ -2,18 +2,16 @@ import './style.css'
 import { sections } from './catelog';
 import { islands } from './catelog';
 import { gsap } from "gsap";
-import { ScrollTrigger } from 'gsap';
-gsap.registerPlugin(ScrollTrigger);
 
 const tl = gsap.timeline({ scrollTrigger:".header-title", delay: 0.5 }); //sequence animations easily
 
 tl.from("#header", { opacity: 0, duration: 1, ease: "ease-out" });
+tl.from(".btn", { x: -500, duration: 0.5, ease: "ease-out" });
 tl.to(".img", { 
   clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%",
   duration: 0.5,
   ease: "ease-out",
 });
-
 
 const DOMSelectors = {
   card: document.querySelector(".card"),
@@ -21,6 +19,16 @@ const DOMSelectors = {
   btn: document.querySelector("#btn"),
   themebtn: document.getElementById("themebtn"),
 };
+
+DOMSelectors.themebtn.addEventListener("click", function () {
+  if (document.body.classList.contains("pinktheme")) {
+    document.body.classList.add("bluetheme");
+    document.body.classList.remove("pinktheme");
+  } else {
+    document.body.classList.add("pinktheme");
+    document.body.classList.remove("bluetheme");
+  }
+});
 
 sections.forEach((section, index) => {
   DOMSelectors.display.insertAdjacentHTML(
@@ -32,16 +40,6 @@ sections.forEach((section, index) => {
       <p class="description">${section.description}</p>
       </div>`
   );
-});
-
-DOMSelectors.themebtn.addEventListener("click", function () {
-  if (document.body.classList.contains("pinktheme")) {
-    document.body.classList.add("bluetheme");
-    document.body.classList.remove("pinktheme");
-  } else {
-    document.body.classList.add("pinktheme");
-    document.body.classList.remove("bluetheme");
-  }
 });
 
 islands.forEach((island, index) => {
