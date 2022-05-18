@@ -52,3 +52,13 @@ volcanoes.forEach((volcano, index) => {
       </div>`
   );
 });
+
+document.querySelector("#theme-btn").addEventListener("click", function () {
+  if (document.body.classList.contains("bluetheme")) {
+    document.body.classList.add("pinktheme");
+    document.body.classList.remove("bluetheme");
+  } else {
+    document.body.classList.add("bluetheme");
+    document.body.classList.remove("pinktheme");
+  }
+});
