@@ -104,16 +104,24 @@ const volcanoes = [
 ];
   export {volcanoes}
 
-const culture = []
+const cultures = [
+  {
+    name: "Hula",
+    description: "On its surface, hula is the storytelling dance of the Hawaiian Islands. As with all of Hawaiian culture, when you are fortunate enough to learn more about it, much deeper, more powerful and empowering truths may be revealed. Hula can be paired with chants or contemporary music, slow and sentimental in tempo or fast and energetic. But no matter its style, it is all part of a cultural practice of sharing a trove of stories that connect dancers and audiences to the foundation of Hawaiian ancestral knowledge. Hula animates history, genealogy, prophecy, and the tales of those who came before.For dancers who connect more deeply through their hula traditions, dance is just one part of the practice, which often involves stewardship of the environment. For example, there may be a reciprocal relationship where dancers care for the forests, which in turn provide for them, including ferns, maile and other materials to make lei and garb that enliven the performance. Practices differ from halau (hula school) to halau, but they all aim to create a tangible, personal connection between the dancer, the stories he or she is dancing about, and the legendary origins of hula itself.Hula kahiko is traditionally performed as part of or as an extension of a ceremony, set to an oli (chant) and accompanied by percussion instruments. While many of the oli we hear along with hula kahiko are compositions from generations ago, there are also new oli and accompanying hula composed today. To call hula “ancient” improperly implies that the art is static. Rather, hula kahiko has strong roots in the past and continues to grow in modern Hawaii. Hula auana is a less formal hula, performed without ceremony. Around the turn of the 20th century, more new hula began to emerge in this less formal style. A story is told with the accompaniment of song and stringed instruments such as guitar, bass, steel guitar and ukulele.",
+  },
+];
+  export {cultures}
 
 const beaches = [
   {
     name: "Waikiki Beach",
     description: "For those who love the beach, look no further than Waikiki. With its long stretch of white sand and turquoise blue water, everyone enjoys this paradise for swimming, surfing, snorkeling, and more. From Hilton Hawaiian Village on the west side to Kapi’olani Park in the east, Waikiki boasts a beautiful tropical climate with tons of activities and events for all ages. Find more high-rises, high-end restaurants, and resorts pepper along this popular destination’s borders. It really should be known as Waikiki Beaches, with the many different sections that make up this two-mile stretch of white sand.  Together, these beach sections make what everyone refers to as Waikiki Beach, one of the busiest and most cosmopolitan spots in Oahu where a plethora of activities geared towards tourists seem to go on all day and most of the night. Whether you are looking forward to surfing, canoe paddling, snorkeling, swimming, boogie boarding, sand combing, catching a golden tan, people watching, or marveling at a few beautiful Waikiki sunsets, it’s very easy to have a good time on the different areas of Waikiki Beach.",
+    img: "/beach1.jpg",
   },
   {
     name: "Makena Beach",
     description: "Makena Beach State Park is one of Maui's signature beaches. With white sands extending nearly 2/3 of a mile long, it is one of the largest, undeveloped beaches in Maui. Enjoy relaxing on the beach with only nature in sight. Nestled between two black-lava outcroppings, Makena offers protection from the trade winds and provides great views of the islands of Molokini and Kahoolawe. The area is divided into two beaches known as Big Beach and Little Beach. Big Beach is located south of Wailea near the Makena Beach and Golf Resort and provides a secluded alternative to more crowded beaches in Kaanapali and Lahaina. Little Beach is a small cove without amenities and no lifeguard. Although state park regulations prohibit nudity, Little Beach is frequently used as a nude beach.",
+    img: "/beach2.jpg",
   },
 ];
   export {beaches}

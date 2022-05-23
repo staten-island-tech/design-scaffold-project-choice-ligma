@@ -7,11 +7,7 @@ const tl = gsap.timeline({ scrollTrigger:".header-title", delay: 0.5 }); //seque
 
 tl.from("#header", { opacity: 0, duration: 1, ease: "ease-out" });
 tl.from(".btn", { x: -500, duration: 0.5, ease: "ease-out" });
-tl.to(".img", { 
-  clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%",
-  duration: 0.5,
-  ease: "ease-out",
-});
+tl.from(".island-card", { duration: 1, flip: "flip" });
 
 const DOMSelectors = {
   card: document.querySelector(".card"),
@@ -75,3 +71,13 @@ foods.forEach((food, index) => {
   );
 });
 
+beaches.forEach((beach, index) => {
+  DOMSelectors.display.insertAdjacentHTML(
+    "afterbegin",
+    `<div class="parent beach-card" id="${index}">
+        <div class="beach-name">${beach.name}</div>
+        <img class="beach-img" src="${beaches.img}" alt="${beach.name}">
+        <p class="beach-description">${beach.description}</p>
+      </div>`
+  );
+});

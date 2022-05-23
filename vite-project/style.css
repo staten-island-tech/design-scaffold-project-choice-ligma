@@ -76,6 +76,7 @@
   background-color: var(--primary);
   margin-left: 50rem;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  
 }
 
 #header {
@@ -111,6 +112,9 @@
   font-size: var(--h4);
 }
 
+.navbar-list {
+  background-color: var(--fourth);
+}
 .title {
   text-align: center;
   color: var(--fourth);
@@ -204,6 +208,36 @@
 }
 
 .volcano-img {
+  align-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.beach-card {
+  background-color: var(--third);
+  border: 3px solid var(--fourth);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 2rem 4rem 6rem 4rem;
+}
+
+.beach-name {
+  text-align: center;
+  color: white;
+  font-family: var(--pink-font);
+  font-size: var(--h3);
+}
+
+.beach-description {
+  text-align: center;
+  color: white;
+  font-family: var(--pink-font);
+  margin: 1rem 2rem 1rem 2rem;
+  font-size: var(--h5);
+}
+
+.beach-img {
   align-content: center;
   width: 100%;
   margin-bottom: 1rem;
