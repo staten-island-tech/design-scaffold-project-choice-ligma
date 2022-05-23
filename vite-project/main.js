@@ -2,6 +2,7 @@ import './style.css'
 import { sections } from './catelog';
 import { islands } from './island';
 import { volcanoes } from './volcano';
+import { foods } from './food';
 import { gsap } from "gsap";
 
 const DOMSelectors = {
@@ -11,6 +12,7 @@ const DOMSelectors = {
   islanddisplay: document.querySelector(".islands"),
   beachdisplay: document.querySelector(".beaches"),
   volcanodisplay: document.querySelector(".volcanoes"),
+  fooddisplay: document.querySelector(".foods"),
   museumdisplay: document.querySelector(".museums"),
   btn: document.querySelector(".btn"),
   themebtn: document.getElementById("#themebtn"),
@@ -46,6 +48,17 @@ volcanoes.forEach((volcano, index) => {
       <div class="name">${volcano.name}</div>
       <img class="img" src="${volcano.img}" alt="${volcano.name}">
       <p class="description">${volcano.description}</p>
+    </div>`
+  );
+});
+
+foods.forEach((food, index) => {
+  DOMSelectors.fooddisplay.insertAdjacentHTML(
+    "afterbegin",
+    `<div class="foods parent card id="${index}">
+      <div class="name">${food.name}</div>
+      <img class="img" src="${food.img}" alt="${food.name}">
+      <p class="description">${food.description}</p>
     </div>`
   );
 });
