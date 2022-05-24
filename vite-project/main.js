@@ -12,6 +12,7 @@ tl.from(".island-card", { duration: 1, flip: "flip" });
 const DOMSelectors = {
   card: document.querySelector(".card"),
   display: document.querySelector(".info"),
+  island:
   btn: document.querySelector("#btn"),
   themebtn: document.getElementById("themebtn"),
 };
@@ -27,7 +28,7 @@ DOMSelectors.themebtn.addEventListener("click", function () {
 });
 
 sections.forEach((section, index) => {
-  DOMSelectors.display.insertAdjacentHTML(
+  DOMSelectors.islands.insertAdjacentHTML(
     "afterbegin",
     `<h2 class="title">${section.name}</h2>
       <div class="card" id="${index}">
