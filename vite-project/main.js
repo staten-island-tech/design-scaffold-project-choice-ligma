@@ -1,5 +1,5 @@
 import './style.css'
-import { sections } from './catelog';
+import { beaches, museums, sections } from './catelog';
 import { islands } from './island';
 import { volcanoes } from './volcano';
 import { foods } from './food';
@@ -60,6 +60,28 @@ foods.forEach((food, index) => {
       <img class="img" src="${food.img}" alt="${food.name}">
       <p class="description">${food.description}</p>
     </div>`
+  );
+});
+
+beaches.forEach((beach, index) => {
+  DOMSelectors.beachdisplay.insertAdjacentHTML(
+    "afterbegin",
+    `<div class="beaches parent card id="${index}">
+      <div class="name">${beach.name}</div> 
+      <img class="img" src="${beach.img}" alt="${beach.name}">
+      <p class="description">${beach.description}</p>
+      </div>`
+  );
+});
+
+museums.forEach((museum, index) => {
+  DOMSelectors.museumdisplay.insertAdjacentHTML(
+    "afterbegin",
+    `<div class="museums parent card id="${index}">
+      <div class="name">${museum.name}</div> 
+      <img class="img" src="${museum.img}" alt="${museum.name}">
+      <p class="description">${museum.description}</p>
+      </div>`
   );
 });
 
