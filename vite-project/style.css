@@ -56,10 +56,6 @@
   --fourth: var(--blue-border);
 }
 
-.hawaii {
-  background-color: var(--primary);
-}
-
 .button {
   align-content: left;
 }
@@ -91,16 +87,6 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 41px;
-}
-
-.card {
-  background-color: var(--third);
-  border: 3px solid var(--fourth);
-  box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin: 1% 60% 4rem 6rem;
-  padding: 2rem 4rem 6rem 4rem;
-  border-radius: 0.8rem;
 }
 
 .navbar-list-sections {
