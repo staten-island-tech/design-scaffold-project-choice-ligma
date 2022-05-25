@@ -1,9 +1,13 @@
 import './style.css'
-import { beaches, museums, sections } from './catelog';
-import { islands } from './island';
-import { volcanoes } from './volcano';
-import { foods } from './food';
+import { sections } from './catelog';
+import { islands } from './catelog';
 import { gsap } from "gsap";
+
+const tl = gsap.timeline({ scrollTrigger: ".header-title", delay: 0.5 }); //sequence animations easily
+
+tl.from("#header", { opacity: 0, duration: 1, ease: "ease-out" });
+tl.from(".btn", { x: -500, duration: 0.5, ease: "ease-out" });
+tl.from(".island-card", { duration: 1, flip: "flip" });
 
 const DOMSelectors = {
   body: document.getElementById("#hawaii"),
@@ -17,6 +21,16 @@ const DOMSelectors = {
   btn: document.querySelector(".btn"),
   themebtn: document.getElementById("#themebtn"),
 };
+
+DOMSelectors.themebtn.addEventListener("click", function () {
+  if (document.body.classList.contains("pinktheme")) {
+    document.body.classList.add("bluetheme");
+    document.body.classList.remove("pinktheme");
+  } else {
+    document.body.classList.add("pinktheme");
+    document.body.classList.remove("bluetheme");
+  }
+});
 
 sections.forEach((section, index) => {
   DOMSelectors.display.insertAdjacentHTML(

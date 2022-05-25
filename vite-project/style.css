@@ -16,23 +16,236 @@
   /*theme 2*/
   --blue-bg: #caf0f8; 
   --blue-border: #00ccf5; 
-  --blue-bottom: #0ad6ff; 
+  --blue-header: #0ad6ff; 
   --blue-card: #90e0ef; 
   --blue-ellipse: #ade8f4; 
   --blue-text: #41363b; 
+
+  /*intentions*/
+  --primary: var(--pink-bg);
+  --secondary: var(--pink-header);
+  --third: var(--pink-card);
+  --fourth: var(--pink-border);
+  --fifth: var(--pink-font);
 
   /*font sizes*/
   --h1: 4.5rem;
   --h2: 3.5rem; 
   --h3: 2.5rem;
   --h4: 1.5rem;
+  --h5: 1rem;
 
   /*font family*/
   --pink-font: font-family: 'Montagu Slab', serif;
   --blue-font: font-family: 'Quicksand', sans-serif;
 
   /*intentions (optional)*/
-  --primary: var(--pink-bg); 
-  --secondary: var(--pink-card);
-  --third: var(--pink-font); 
+  
+}
+
+.pinktheme {
+  --primary: var(--pink-bg);
+  --secondary: var(--pink-header);
+  --third: var(--pink-card);
+  --fourth: var(--pink-border);
+}
+.bluetheme {
+  --primary: var(--blue-bg);
+  --secondary: var(--blue-header);
+  --third: var(--blue-card);
+  --fourth: var(--blue-border);
+}
+
+.hawaii {
+  background-color: var(--primary);
+}
+
+.button {
+  align-content: left;
+}
+
+.btn {
+  text-align: center;
+  font-family: var(--pink-font);
+  font-size: var(--h4);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  background-color: var(--primary);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#header {
+  height: 6rem;
+  margin: 3rem 4rem 3rem 4rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: var(--secondary);
+  text-align: center;
+  font-family: var(--pink-font);
+  font-size: var(--h1);
+  border-radius: 1rem;
+}
+
+.subheader {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+}
+
+.card {
+  background-color: var(--third);
+  border: 3px solid var(--fourth);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 1% 60% 4rem 6rem;
+  padding: 2rem 4rem 6rem 4rem;
+  border-radius: 0.8rem;
+}
+
+.navbar-list-sections {
+  justify-content: space-evenly;
+  font-family: var(--pink-font);
+  font-size: var(--h4);
+}
+
+.navbar-list {
+  background-color: var(--fourth);
+}
+.title {
+  text-align: center;
+  color: var(--fourth);
+  font-family: var(--pink-font);
+  font-size: var(--h2);
+}
+
+.img {
+  align-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  text-align: center;
+  color: white;
+  font-family: var(--pink-font);
+  font-size: var(--h3);
+}
+
+.description {
+  text-align: center;
+  color: white;
+  font-family: var(--pink-font);
+  margin: 1rem 2rem 1rem 2rem;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 40vw;
+  margin: 3rem 60% 4rem 6rem;
+  align-items: center;
+}
+
+.island-card {
+  background-color: var(--third);
+  border: 3px solid var(--fourth);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 2rem 4rem 6rem 4rem;
+  border-radius: 1.5rem;
+}
+
+.island-name {
+  text-align: center;
+  color: white;
+  font-family: var(--pink-font);
+  font-size: var(--h3);
+}
+
+.island-description {
+  text-align: center;
+  color: white;
+  font-family: var(--pink-font);
+  margin: 1rem 2rem 1rem 2rem;
+  font-size: var(--h5);
+}
+
+.island-img {
+  align-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.volcano-card {
+  background-color: var(--third);
+  border: 3px solid var(--fourth);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 2rem 4rem 6rem 4rem;
+}
+
+.volcano-name {
+  text-align: center;
+  color: white;
+  font-family: var(--pink-font);
+  font-size: var(--h3);
+}
+
+.volcano-description {
+  text-align: center;
+  color: white;
+  font-family: var(--pink-font);
+  margin: 1rem 2rem 1rem 2rem;
+  font-size: var(--h5);
+}
+
+.volcano-img {
+  align-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.beach-card {
+  background-color: var(--third);
+  border: 3px solid var(--fourth);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 2rem 4rem 6rem 4rem;
+}
+
+.beach-name {
+  text-align: center;
+  color: white;
+  font-family: var(--pink-font);
+  font-size: var(--h3);
+}
+
+.beach-description {
+  text-align: center;
+  color: white;
+  font-family: var(--pink-font);
+  margin: 1rem 2rem 1rem 2rem;
+  font-size: var(--h5);
+}
+
+.beach-img {
+  align-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.bottom {
+  padding: 4rem;
+  background-color: var(--pink-bottom);
+}
+
+.whales {
+  margin-left: 45rem;
+  width: 12rem;
 }
