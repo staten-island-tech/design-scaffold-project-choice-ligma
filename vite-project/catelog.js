@@ -150,7 +150,3 @@ const foods = [
   },
 ];
 export { foods }
-
-
-
-
