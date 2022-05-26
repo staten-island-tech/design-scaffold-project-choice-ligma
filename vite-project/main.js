@@ -11,6 +11,22 @@ tl.from("#header", { opacity: 0, duration: 1, ease: "ease-out" });
 tl.from(".btn", { x: -1000, duration: 0.5, ease: "ease-out" });
 tl.from(".parent", { duration: 1, flip: "flip" });
 
+gsap.utils.toArray('.card').forEach((top, index) => { 
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: el,
+      start: "top top",
+      toggleActions: "play none none reverse",
+       markers: true
+    }
+  })
+  tl
+  .set(el, {transformOrigin: 'center center'})
+  .fromTo(el, { opacity: 0, scale: 0.8, y: "+=100"}, {opacity: 1, scale: 1, y: 0, duration: 1, immediateRender: false})
+})
+
+
+
 const DOMSelectors = {
   card: document.querySelector(".card"),
   display: document.querySelector(".info"),
