@@ -11,12 +11,15 @@ tl.from(".island-card", { duration: 1, flip: "flip" });
 const DOMSelectors = {
   card: document.querySelector(".card"),
   display: document.querySelector(".info"),
-  islanddisplay: document.getElementById("islands"),
-  beachdisplay: document.getElementById("beaches"),
-  culturedisplay: document.getElementById("cultures"),
-  volcanodisplay: document.getElementById("volcanoes"),
   fooddisplay: document.getElementById("foods"),
   museumdisplay: document.getElementById("museums"),
+  beachdisplay: document.getElementById("beaches"),
+  culturedisplay: document.getElementById("cultures"),
+  historydisplay: document.getElementById("history"),
+  naturedisplay: document.getElementById("nature"),
+  volcanodisplay: document.getElementById("volcanoes"),
+  legenddisplay: document.getElementById("legends"),
+  islanddisplay: document.getElementById("islands"),
   btn: document.querySelector(".btn"),
   themebtn: document.getElementById("themebtn"),
 };
@@ -45,7 +48,7 @@ foods.forEach((food, index) => {
 museums.forEach((museum, index) => {
   DOMSelectors.museumdisplay.insertAdjacentHTML(
     "beforeend",
-    `<div class="museums parent card id="${index}">
+    `<div class="museums card id="${index}">
       <div class="name">${museum.name}</div> 
       <img class="img" src="${museum.img}" alt="${museum.name}">
       <p class="description">${museum.description}</p>
@@ -56,7 +59,7 @@ museums.forEach((museum, index) => {
 beaches.forEach((beach, index) => {
   DOMSelectors.beachdisplay.insertAdjacentHTML(
     "beforeend",
-    `<div class="beaches parent card id="${index}">
+    `<div class="beaches card id="${index}">
       <div class="name">${beach.name}</div> 
       <img class="img" src="${beach.img}" alt="${beach.name}">
       <p class="description">${beach.description}</p>
@@ -67,7 +70,7 @@ beaches.forEach((beach, index) => {
 cultures.forEach((culture, index) => {
   DOMSelectors.culturedisplay.insertAdjacentHTML(
     "beforeend",
-    `<div class="cultures parent card id="${index}">
+    `<div class="cultures card id="${index}">
       <div class="name">${culture.name}</div> 
       <img class="img" src="${culture.img}" alt="${culture.name}">
       <p class="description">${culture.description}</p>
@@ -76,12 +79,23 @@ cultures.forEach((culture, index) => {
 });
 
 histories.forEach((history, index) => {
-  DOMSelectors.culturedisplay.insertAdjacentHTML(
+  DOMSelectors.historydisplay.insertAdjacentHTML(
     "beforeend",
-    `<div class="cultures parent card id="${index}">
-      <div class="name">${culture.name}</div> 
-      <img class="img" src="${culture.img}" alt="${culture.name}">
-      <p class="description">${culture.description}</p>
+    `<div class="history card id="${index}">
+      <div class="name">${history.name}</div> 
+      <img class="img" src="${history.img}" alt="${history.name}">
+      <p class="description">${history.description}</p>
+      </div>`
+  );
+});
+
+nature.forEach((nature, index) => {
+  DOMSelectors.naturedisplay.insertAdjacentHTML(
+    "beforeend",
+    `<div class="nature card id="${index}">
+      <div class="name">${nature.name}</div> 
+      <img class="img" src="${nature.img}" alt="${nature.name}">
+      <p class="description">${nature.description}</p>
       </div>`
   );
 });
@@ -89,10 +103,21 @@ histories.forEach((history, index) => {
 volcanoes.forEach((volcano, index) => {
   DOMSelectors.volcanodisplay.insertAdjacentHTML(
     "beforeend",
-    `<div class="volcanoes parent card" id="${index}">
+    `<div class="volcanoes card" id="${index}">
       <div class="name">${volcano.name}</div>
       <img class="img" src="${volcano.img}" alt="${volcano.name}">
       <p class="description">${volcano.description}</p>
+    </div>`
+  );
+});
+
+legends.forEach((legend, index) => {
+  DOMSelectors.legenddisplay.insertAdjacentHTML(
+    "beforeend",
+    `<div class="legends card" id="${index}">
+      <div class="name">${legend.name}</div>
+      <img class="img" src="${legend.img}" alt="${legend.name}">
+      <p class="description">${legend.description}</p>
     </div>`
   );
 });
