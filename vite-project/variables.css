@@ -3,6 +3,7 @@
     margin: 0%;
     box-sizing: border-box;
     font-size: 62.5%;
+    font-family: 'Montagu Slab', serif;
 } 
 
 #hawaii {
@@ -25,16 +26,6 @@
     font-weight: 400;
     font-size: var(--h1);
     line-height: 41px;
-}
-
-.card {
-    background-color: var(--third);
-    border: 3px solid var(--fourth);
-    box-sizing: border-box;
-    box-shadow: 0rem 0.5rem 0.5rem var(--black);
-    margin: 1% 60% 4rem 6rem;
-    padding: 2rem 4rem 6rem 4rem;
-    border-radius: 0.8rem;
 }
 
 nav{
@@ -71,7 +62,7 @@ nav{
 } 
 
 .navbar-list-sections:hover{
-    background: var(--white);
+    background: var(--white); 
     transition: 0.2s;
 }
 
@@ -127,7 +118,17 @@ nav{
     justify-content: space-evenly;
     flex-direction: row;
     align-items: center;
-    width: 28%;
+}
+
+.card {
+    flex: auto;
+    background-color: var(--third);
+    border: 3px solid var(--fourth);
+    box-sizing: border-box;
+    box-shadow: 0rem 0.5rem 0.5rem var(--black);
+    margin: 1% 60% 4rem 6rem;
+    padding: 2rem 4rem 6rem 4rem;
+    border-radius: 0.8rem;
 }
 
 .island-img {
@@ -137,14 +138,21 @@ nav{
     margin-top: 1rem;
 }
 
-.pinktheme{
+.pinktheme {
     --primary: var(--pink-bg);
-    --secondary: var(--pink-card);
-    --third: var(--pink-font);
+    --secondary: var(--pink-header);
+    --third: var(--pink-card);
+    --fourth: var(--pink-border);
+    --fifth: var(--pink-text);
+    font-family: 'Montagu Slab', serif;
 }
 
-.bluetheme{
-    --primary: var(--blue-bg); 
-    --secondary: var(--blue-card);
-    --third:var(--blue-font);
+.bluetheme {
+    --primary: var(--blue-bg);
+    --secondary: var(--blue-header);
+    --third: var(--blue-card);
+    --fourth: var(--blue-border); 
+    --fifth: var(--blue-text);
+    font-family: 'Quicksand', sans-serif;
 }
+  

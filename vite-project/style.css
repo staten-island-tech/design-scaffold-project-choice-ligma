@@ -41,23 +41,6 @@
   /*intentions (optional)*/
 }
 
-.pinktheme {
-  --primary: var(--pink-bg);
-  --secondary: var(--pink-header);
-  --third: var(--pink-card);
-  --fourth: var(--pink-border);
-  --fifth: var(--white);
-  font-family: 'Montagu Slab', serif;
-}
-.bluetheme {
-  --primary: var(--blue-bg);
-  --secondary: var(--blue-header);
-  --third: var(--blue-card);
-  --fourth: var(--blue-border); 
-  --fifth: var(--blue-text);
-  font-family: 'Quicksand', sans-serif;
-}
-
 .button {
   align-content: left;
 }
