@@ -13,6 +13,7 @@ const DOMSelectors = {
   display: document.querySelector(".info"),
   islanddisplay: document.querySelector(".islands"),
   beachdisplay: document.querySelector(".beaches"),
+  culturedisplay: document.querySelector(".cultures"),
   volcanodisplay: document.querySelector(".volcanoes"),
   fooddisplay: document.querySelector(".foods"),
   museumdisplay: document.querySelector(".museums"),
@@ -63,6 +64,17 @@ beaches.forEach((beach, index) => {
   );
 });
 
+cultures.forEach((culture, index) => {
+  DOMSelectors.culturedisplay.insertAdjacentHTML(
+    "beforeend",
+    `<div class="cultures parent card id="${index}">
+      <div class="name">${culture.name}</div> 
+      <img class="img" src="${culture.img}" alt="${culture.name}">
+      <p class="description">${culture.description}</p>
+      </div>`
+  );
+});
+
 volcanoes.forEach((volcano, index) => {
   DOMSelectors.volcanodisplay.insertAdjacentHTML(
     "beforeend",
@@ -77,7 +89,7 @@ volcanoes.forEach((volcano, index) => {
 islands.forEach((island, index) => {
   DOMSelectors.islanddisplay.insertAdjacentHTML(
     "beforeend",
-    `<div class="islands parent card" id="${index}">
+    `<div class="islands parent card island-card" id="${index}">
       <div class="name">${island.name}</div>
       <img class="island-img" src="${island.img}" alt="${island.name}">
       <p class="description">${island.description}</p>

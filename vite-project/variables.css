@@ -6,44 +6,67 @@
     font-family: 'Montagu Slab', serif;
 } 
 
-#hawaii {
+.pinktheme {
+    --primary: var(--pink-bg);
+    --secondary: var(--pink-header);
+    --third: var(--pink-card);
+    --fourth: var(--pink-border);
+    --fifth: var(--pink-text);
+    font-family: 'Montagu Slab', serif;
+}
+
+.bluetheme {
+    --primary: var(--blue-bg);
+    --secondary: var(--blue-header);
+    --third: var(--blue-card);
+    --fourth: var(--blue-border); 
+    --fifth: var(--blue-text);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.hawaii {
     background-color: var(--primary);
 }
 
 #header {
     height: 6rem;
     margin: 3rem 4rem 3rem 4rem;
+    margin-top: 9rem;
     filter: drop-shadow(0rem 0.5rem 0.5rem var(--black));
     background-color: var(--pink-header);
     text-align: center;
-    font-family: var(--pink-font);
     font-size: var(--h1);
 }
 
-.subheader {
+.button {
     text-align: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: var(--h1);
-    line-height: 41px;
 }
 
-nav{
+.btn {
+    font-family: var(--pink-font);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    background-color: var(--pink-bottom);
+    margin-bottom: 3rem;
+}
+
+.navbar{
+    position: fixed;
+    top: 0%;
     display: flex; 
     justify-content: space-around;
     align-items: center;
     background-color: var(--fourth); 
+    width: 100%;
 }
 
 .navbar-list {
     display: flex; 
     justify-content: space-evenly;
     padding: 1rem;
-    margin-top: 2rem;
     align-items: center;
-    flex-direction: row;
     color: var(--white);
-    width: 50%;
+    width: 100%;
     font-size: var(--h3);
 }
 
@@ -64,6 +87,28 @@ nav{
 .navbar-list-sections:hover{
     background: var(--white); 
     transition: 0.2s;
+}
+
+.info {
+    text-align: center;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.card {
+    flex: auto;
+    background-color: var(--third);
+    border: 3px solid var(--fourth);
+    box-sizing: border-box;
+    box-shadow: 0rem 0.5rem 0.5rem var(--black);
+    margin: 1% 60% 4rem 6rem;
+    padding: 2rem 4rem 6rem 4rem;
+    border-radius: 0.8rem;
 }
 
 .title {
@@ -103,33 +148,7 @@ nav{
     width: 12rem;
 }
 
-.btn {
-    align-items: center;
-    font-family: var(--pink-font);
-    padding: 1rem 2rem;
-    border-radius: 2rem;
-    background-color: var(--pink-bottom);
-    margin-left: 50rem;
-}
 
-.parent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-items: center;
-}
-
-.card {
-    flex: auto;
-    background-color: var(--third);
-    border: 3px solid var(--fourth);
-    box-sizing: border-box;
-    box-shadow: 0rem 0.5rem 0.5rem var(--black);
-    margin: 1% 60% 4rem 6rem;
-    padding: 2rem 4rem 6rem 4rem;
-    border-radius: 0.8rem;
-}
 
 .island-img {
     align-content: center;
@@ -138,21 +157,5 @@ nav{
     margin-top: 1rem;
 }
 
-.pinktheme {
-    --primary: var(--pink-bg);
-    --secondary: var(--pink-header);
-    --third: var(--pink-card);
-    --fourth: var(--pink-border);
-    --fifth: var(--pink-text);
-    font-family: 'Montagu Slab', serif;
-}
 
-.bluetheme {
-    --primary: var(--blue-bg);
-    --secondary: var(--blue-header);
-    --third: var(--blue-card);
-    --fourth: var(--blue-border); 
-    --fifth: var(--blue-text);
-    font-family: 'Quicksand', sans-serif;
-}
   

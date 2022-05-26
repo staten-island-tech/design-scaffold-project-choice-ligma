@@ -56,6 +56,74 @@ const sections = [
 ];
 export { sections }
 
+const foods = [
+  {
+    name: "All-Natural Shave Ice",
+    description: "Hawaii’s iconic frozen treat is now part of the Islands’ farm-to-table movement. It’s becoming easier to get a bowl of finely shaved ice over which housemade, all natural, locally sourced syrups are generously poured. In many ways, this evolved shave ice recaptures the cool cones’ history. Japanese laborers, contracted to work in Hawaii sugar and pineapple fields, brought shave ice with them. Plantation workers would use their machetes to finely shave the ice from large ice blocks, then pour fruit juice over the fluffy ice.",
+    img: "/food1.jpg",
+  },
+  {
+    name: "Poke",
+    description: "Perennially beloved by locals and visitors alike, poke is a rich dish full of flavorful, simple ingredients. Most versions use ahi tuna, chopped into small cubes and combined with onions, sesame seeds, limu seaweed and soy sauce. Sometimes, they substitute other freshwater fish or even octopus instead. The dish is so popular that it has made its way across the ocean, showing up in eateries all along the mainland.",
+    img: "/food2.jpg",
+  },
+  {
+    name: "Poi",
+    description: "The staple and traditional filler starch dish in Hawaiian cuisine is something known as poi. Poi is a thick paste made from taro root (similar to a yam or potato but with a starchy-er flavor) that is either steamed or baked and pounded. While pounding, water is added to the mixture to create a very sticky pudding-like consistency. Poi has a unique flavor, it’s starchy and slightly sour from the light fermentation in the preparation process.",
+    img: "/food3.jpg",
+  },
+];
+export { foods }
+
+const museums = [
+  {
+    name: "Pearl Harbor",
+    description: "There is a reason that Pearl Harbor is the number one visitor destination in Hawaii and the USS Arizona Memorial is where your Pearl Harbor experience begins. Millions of people from all over the world come to this majestic setting to see for themselves where World War II began for the United States on December 7, 1941. The USS Arizona Memorial is a must-see destination for all individuals coming to Hawaii, drawing more than 1.7 million visitors each year from all over the world. Visitors are free to explore the grounds of the $65 million Pearl Harbor Visitor Center, which was expanded from the original 3 to 17 acres, in December of 2011. The USS Arizona Memorial is built over the remains of the sunken battleship USS Arizona, the final resting place for many of the 1,177 crewmen killed on December 7, 1941, when their ship was bombed by Japanese Naval Forces. This loss of life represents over half of the Americans killed during the worst naval disaster in American history.",
+  },
+  {
+    name: "Bishop Museum",
+    description: "Honolulu’s Bishop Museum is Hawaii’s largest museum dedicated to studying and preserving the history of Hawaii and the Pacific. Originally designed to house the extensive collection of Hawaiian artifacts and royal family heirlooms of Princess Bernice Pauahi Bishop, a descendant of King Kamehameha I, the museum is now the premier natural and cultural history institution in the Pacific. One of Oahu’s most historic places, the museum holds millions of artifacts, documents and photos about Hawaii and other Polynesian cultures.",
+  },
+];
+export { museums }
+
+const beaches = [
+  {
+    name: "Waikiki Beach",
+    description: "For those who love the beach, look no further than Waikiki. With its long stretch of white sand and turquoise blue water, everyone enjoys this paradise for swimming, surfing, snorkeling, and more. From Hilton Hawaiian Village on the west side to Kapi’olani Park in the east, Waikiki boasts a beautiful tropical climate with tons of activities and events for all ages. Find more high-rises, high-end restaurants, and resorts pepper along this popular destination’s borders. It really should be known as Waikiki Beaches, with the many different sections that make up this two-mile stretch of white sand.  Together, these beach sections make what everyone refers to as Waikiki Beach, one of the busiest and most cosmopolitan spots in Oahu where a plethora of activities geared towards tourists seem to go on all day and most of the night. Whether you are looking forward to surfing, canoe paddling, snorkeling, swimming, boogie boarding, sand combing, catching a golden tan, people watching, or marveling at a few beautiful Waikiki sunsets, it’s very easy to have a good time on the different areas of Waikiki Beach.",
+    img: "/beach1.jpg",
+  },
+  {
+    name: "Makena Beach",
+    description: "Makena Beach State Park is one of Maui's signature beaches. With white sands extending nearly 2/3 of a mile long, it is one of the largest, undeveloped beaches in Maui. Enjoy relaxing on the beach with only nature in sight. Nestled between two black-lava outcroppings, Makena offers protection from the trade winds and provides great views of the islands of Molokini and Kahoolawe. The area is divided into two beaches known as Big Beach and Little Beach. Big Beach is located south of Wailea near the Makena Beach and Golf Resort and provides a secluded alternative to more crowded beaches in Kaanapali and Lahaina. Little Beach is a small cove without amenities and no lifeguard. Although state park regulations prohibit nudity, Little Beach is frequently used as a nude beach.",
+    img: "/beach2.jpg",
+  },
+];
+export { beaches }
+
+const cultures = [
+  {
+    name: "Hula",
+    description: "On its surface, hula is the storytelling dance of the Hawaiian Islands. Hula can be paired with chants or contemporary music, slow and sentimental in tempo or fast and energetic. But no matter its style, it is all part of a cultural practice of sharing a trove of stories that connect dancers and audiences to the foundation of Hawaiian ancestral knowledge. Hula animates history, genealogy, prophecy, and the tales of those who came before.For dancers who connect more deeply through their hula traditions, dance is just one part of the practice, which often involves stewardship of the environment. For example, there may be a reciprocal relationship where dancers care for the forests, which in turn provide for them, including ferns, maile and other materials to make lei and garb that enliven the performance. Practices differ from halau (hula school) to halau, but they all aim to create a tangible, personal connection between the dancer, the stories he or she is dancing about, and the legendary origins of hula itself.Hula kahiko is traditionally performed as part of or as an extension of a ceremony, set to an oli (chant) and accompanied by percussion instruments. While many of the oli we hear along with hula kahiko are compositions from generations ago, there are also new oli and accompanying hula composed today. To call hula “ancient” improperly implies that the art is static. Rather, hula kahiko has strong roots in the past and continues to grow in modern Hawaii. Hula auana is a less formal hula, performed without ceremony. Around the turn of the 20th century, more new hula began to emerge in this less formal style. A story is told with the accompaniment of song and stringed instruments such as guitar, bass, steel guitar and ukulele.",
+    img: "/culture1.jpg",
+  },
+];
+export { cultures }
+
+const volcanoes = [
+  {
+    name: "Hawaii Volcanoes National Park",
+    description: "Hawaii Volcanoes National Park encompasses 335,259 acres or about 523 square miles from the summit of Maunaloa to the sea (by comparison, the island of Oahu is 597 square miles). Discover 150 miles of hiking trails through volcanic craters, scalded deserts and rainforests, as well as a visitor center, petroglyphs and two active volcanoes: Maunaloa, which last erupted in 1984 and and Kilauea which last erupted in 2018 (1983-2018). Kilauea is often called 'the world's only drive-in volcano.' At one time, this prolific volcano produced 250,000-650,00 cubic yards of lava per day - enough to resurface a 20-mile-long, two-lane road each day. As of January 1983, more than 875 acres of new land has been created on the island of Hawaii.The extraordinary natural diversity of the park was recognized in 1980 when it was named a World Biosphere Site by UNESCO and in 1987 when the park was honored as a World Heritage Site.",
+    img: "/volcano1.jpg"
+  },
+  {
+    name: "Diamond Head",
+    description: "The unique profile of Diamond Head (Lē‘ahi) sits prominently near the eastern edge of Waikiki’s coastline. Hawaii’s most recognized landmark is known for its historic hiking trail, stunning coastal views, and military history. Diamond Head State Monument encompasses over 475 acres, including the interior and outer slopes of the crater.This broad, saucer-shaped crater was formed about 300,000 years ago during a single, explosive eruption that sent ash and fine particles in the air. As these materials settled, they cemented together into a rock called tuff, creating the crater, which is visible from the trail in the park. Most of the vegetation and birds were introduced in the late 1800s to early 1900s.The trail to the summit of Lē‘ahi was built in 1908 as part of Oahu’s coastal defense system. The 0.8 mile hike from trailhead to the summit is steep and strenuous, gaining 560 feet as it ascends from the crater floor. The walk is a glimpse into the geological and military history of Diamond Head. A concrete walkway built to reduce erosion shifts to a natural tuff surface about 0.2 mile up the trail with many switchbacks traversing the steep slope of the crater interior. The ascent continues up steep stairs and through a lighted 225-foot tunnel to enter the Fire Control Station completed in 1911. Built on the summit, the station directed artillery fire from batteries in Waikiki and Fort Ruger outside Diamond Head crater. At the summit, you’ll see bunkers and a huge navigational lighthouse built in 1917. The postcard view of the shoreline from Koko Head to Wai‘anae is stunning, and during winter, may include passing humpback whales.",
+    img: "/volcano2.jpg"
+  },
+];
+export { volcanoes }
+
 const islands = [
   {
     name: "Kauai",
@@ -89,70 +157,3 @@ const islands = [
   },
 ];
 export { islands }
-
-const volcanoes = [
-  {
-    name: "Hawaii Volcanoes National Park",
-    description: "Hawaii Volcanoes National Park encompasses 335,259 acres or about 523 square miles from the summit of Maunaloa to the sea (by comparison, the island of Oahu is 597 square miles). Discover 150 miles of hiking trails through volcanic craters, scalded deserts and rainforests, as well as a visitor center, petroglyphs and two active volcanoes: Maunaloa, which last erupted in 1984 and and Kilauea which last erupted in 2018 (1983-2018). Kilauea is often called 'the world's only drive-in volcano.' At one time, this prolific volcano produced 250,000-650,00 cubic yards of lava per day - enough to resurface a 20-mile-long, two-lane road each day. As of January 1983, more than 875 acres of new land has been created on the island of Hawaii.The extraordinary natural diversity of the park was recognized in 1980 when it was named a World Biosphere Site by UNESCO and in 1987 when the park was honored as a World Heritage Site.",
-    img: "/volcano1.jpg"
-  },
-  {
-    name: "Diamond Head",
-    description: "The unique profile of Diamond Head (Lē‘ahi) sits prominently near the eastern edge of Waikiki’s coastline. Hawaii’s most recognized landmark is known for its historic hiking trail, stunning coastal views, and military history. Diamond Head State Monument encompasses over 475 acres, including the interior and outer slopes of the crater.This broad, saucer-shaped crater was formed about 300,000 years ago during a single, explosive eruption that sent ash and fine particles in the air. As these materials settled, they cemented together into a rock called tuff, creating the crater, which is visible from the trail in the park. Most of the vegetation and birds were introduced in the late 1800s to early 1900s.The trail to the summit of Lē‘ahi was built in 1908 as part of Oahu’s coastal defense system. The 0.8 mile hike from trailhead to the summit is steep and strenuous, gaining 560 feet as it ascends from the crater floor. The walk is a glimpse into the geological and military history of Diamond Head. A concrete walkway built to reduce erosion shifts to a natural tuff surface about 0.2 mile up the trail with many switchbacks traversing the steep slope of the crater interior. The ascent continues up steep stairs and through a lighted 225-foot tunnel to enter the Fire Control Station completed in 1911. Built on the summit, the station directed artillery fire from batteries in Waikiki and Fort Ruger outside Diamond Head crater. At the summit, you’ll see bunkers and a huge navigational lighthouse built in 1917. The postcard view of the shoreline from Koko Head to Wai‘anae is stunning, and during winter, may include passing humpback whales.",
-    img: "/volcano2.jpg"
-  },
-];
-export { volcanoes }
-
-const cultures = [
-  {
-    name: "Hula",
-    description: "On its surface, hula is the storytelling dance of the Hawaiian Islands. As with all of Hawaiian culture, when you are fortunate enough to learn more about it, much deeper, more powerful and empowering truths may be revealed. Hula can be paired with chants or contemporary music, slow and sentimental in tempo or fast and energetic. But no matter its style, it is all part of a cultural practice of sharing a trove of stories that connect dancers and audiences to the foundation of Hawaiian ancestral knowledge. Hula animates history, genealogy, prophecy, and the tales of those who came before.For dancers who connect more deeply through their hula traditions, dance is just one part of the practice, which often involves stewardship of the environment. For example, there may be a reciprocal relationship where dancers care for the forests, which in turn provide for them, including ferns, maile and other materials to make lei and garb that enliven the performance. Practices differ from halau (hula school) to halau, but they all aim to create a tangible, personal connection between the dancer, the stories he or she is dancing about, and the legendary origins of hula itself.Hula kahiko is traditionally performed as part of or as an extension of a ceremony, set to an oli (chant) and accompanied by percussion instruments. While many of the oli we hear along with hula kahiko are compositions from generations ago, there are also new oli and accompanying hula composed today. To call hula “ancient” improperly implies that the art is static. Rather, hula kahiko has strong roots in the past and continues to grow in modern Hawaii. Hula auana is a less formal hula, performed without ceremony. Around the turn of the 20th century, more new hula began to emerge in this less formal style. A story is told with the accompaniment of song and stringed instruments such as guitar, bass, steel guitar and ukulele.",
-  },
-];
-export { cultures }
-
-const beaches = [
-  {
-    name: "Waikiki Beach",
-    description: "For those who love the beach, look no further than Waikiki. With its long stretch of white sand and turquoise blue water, everyone enjoys this paradise for swimming, surfing, snorkeling, and more. From Hilton Hawaiian Village on the west side to Kapi’olani Park in the east, Waikiki boasts a beautiful tropical climate with tons of activities and events for all ages. Find more high-rises, high-end restaurants, and resorts pepper along this popular destination’s borders. It really should be known as Waikiki Beaches, with the many different sections that make up this two-mile stretch of white sand.  Together, these beach sections make what everyone refers to as Waikiki Beach, one of the busiest and most cosmopolitan spots in Oahu where a plethora of activities geared towards tourists seem to go on all day and most of the night. Whether you are looking forward to surfing, canoe paddling, snorkeling, swimming, boogie boarding, sand combing, catching a golden tan, people watching, or marveling at a few beautiful Waikiki sunsets, it’s very easy to have a good time on the different areas of Waikiki Beach.",
-    img: "/beach1.jpg",
-  },
-  {
-    name: "Makena Beach",
-    description: "Makena Beach State Park is one of Maui's signature beaches. With white sands extending nearly 2/3 of a mile long, it is one of the largest, undeveloped beaches in Maui. Enjoy relaxing on the beach with only nature in sight. Nestled between two black-lava outcroppings, Makena offers protection from the trade winds and provides great views of the islands of Molokini and Kahoolawe. The area is divided into two beaches known as Big Beach and Little Beach. Big Beach is located south of Wailea near the Makena Beach and Golf Resort and provides a secluded alternative to more crowded beaches in Kaanapali and Lahaina. Little Beach is a small cove without amenities and no lifeguard. Although state park regulations prohibit nudity, Little Beach is frequently used as a nude beach.",
-    img: "/beach2.jpg",
-  },
-];
-export { beaches }
-
-const museums = [
-  {
-    name: "Pearl Harbor",
-    description: "There is a reason that Pearl Harbor is the number one visitor destination in Hawaii and the USS Arizona Memorial is where your Pearl Harbor experience begins. Millions of people from all over the world come to this majestic setting to see for themselves where World War II began for the United States on December 7, 1941. The USS Arizona Memorial is a must-see destination for all individuals coming to Hawaii, drawing more than 1.7 million visitors each year from all over the world. Visitors are free to explore the grounds of the $65 million Pearl Harbor Visitor Center, which was expanded from the original 3 to 17 acres, in December of 2011. The USS Arizona Memorial is built over the remains of the sunken battleship USS Arizona, the final resting place for many of the 1,177 crewmen killed on December 7, 1941, when their ship was bombed by Japanese Naval Forces. This loss of life represents over half of the Americans killed during the worst naval disaster in American history.",
-  },
-  {
-    name: "Bishop Museum",
-    description: "Honolulu’s Bishop Museum is Hawaii’s largest museum dedicated to studying and preserving the history of Hawaii and the Pacific. Originally designed to house the extensive collection of Hawaiian artifacts and royal family heirlooms of Princess Bernice Pauahi Bishop, a descendant of King Kamehameha I, the museum is now the premier natural and cultural history institution in the Pacific. One of Oahu’s most historic places, the museum holds millions of artifacts, documents and photos about Hawaii and other Polynesian cultures.",
-  },
-];
-export { museums }
-
-const foods = [
-  {
-    name: "All-Natural Shave Ice",
-    description: "Hawaii’s iconic frozen treat is now part of the Islands’ farm-to-table movement. It’s becoming easier to get a bowl of finely shaved ice over which housemade, all natural, locally sourced syrups are generously poured. In many ways, this evolved shave ice recaptures the cool cones’ history. Japanese laborers, contracted to work in Hawaii sugar and pineapple fields, brought shave ice with them. Plantation workers would use their machetes to finely shave the ice from large ice blocks, then pour fruit juice over the fluffy ice.",
-    img: "/food1.jpg",
-  },
-  {
-    name: "Poke",
-    description: "Perennially beloved by locals and visitors alike, poke is a rich dish full of flavorful, simple ingredients. Most versions use ahi tuna, chopped into small cubes and combined with onions, sesame seeds, limu seaweed and soy sauce. Sometimes, they substitute other freshwater fish or even octopus instead. The dish is so popular that it has made its way across the ocean, showing up in eateries all along the mainland.",
-    img: "/food2.jpg",
-  },
-  {
-    name: "Poi",
-    description: "The staple and traditional filler starch dish in Hawaiian cuisine is something known as poi. Poi is a thick paste made from taro root (similar to a yam or potato but with a starchy-er flavor) that is either steamed or baked and pounded. While pounding, water is added to the mixture to create a very sticky pudding-like consistency. Poi has a unique flavor, it’s starchy and slightly sour from the light fermentation in the preparation process.",
-    img: "/food3.jpg",
-  },
-];
-export { foods }
