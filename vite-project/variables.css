@@ -186,7 +186,7 @@
         text-align: center;
     }
     .navbar-list-sections {
-        font-size: var(--h4);
+        font-size: 2rem;
     }
 }
 
@@ -209,11 +209,34 @@
     h5{
         font-size: 1.15rem;
     }
-
     .navbar-list-sections {
         font-size: var(--h4);
     }
     .card{
         width: 80%;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    *,html,body{
+        text-align: center;
+    } 
+    h1{
+        font-size: var(--h2);
+    }
+    h2{
+        font-size: var(--h3);
+    }
+    h3{
+        font-size: var(--h4);
+    }
+    h4{
+        font-size: var(--h5);
+    }
+    h5{
+        font-size: 1.15rem;
+    }
+    .navbar-list-sections {
+        font-size: var(--h5);
     }
 }
