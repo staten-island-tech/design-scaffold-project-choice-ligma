@@ -185,10 +185,8 @@
     *,html,body{
         text-align: center;
     }
-    body{
-        flex-direction: row;
-        margin: auto;
-        align-items: center;
+    .navbar-list-sections {
+        font-size: 2rem;
     }
 }
 
@@ -217,18 +215,5 @@
     }
     .card{
         width: 80%;
-    }
-    .column-card{
-        background-color: var(--third);
-        border: 3px solid var(--fourth);
-        box-sizing: border-box;
-        box-shadow: 0rem 0.5rem 0.5rem var(--black);
-        margin: 2rem;
-        padding: 2rem;
-        border-radius: 1rem;
-    }
-    .column-info {
-        display: none;
-        align-items: center;
     }
 }
