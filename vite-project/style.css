@@ -21,13 +21,6 @@
   --blue-ellipse: #ade8f4; 
   --blue-text: #41363b; 
 
-  /*intentions*/
-  --primary: var(--pink-bg);
-  --secondary: var(--pink-header);
-  --third: var(--pink-card);
-  --fourth: var(--pink-border);
-  --fifth: var(--pink-font);
-
   /*font sizes*/
   --h1: 4.5rem;
   --h2: 3.5rem; 
@@ -36,8 +29,15 @@
   --h5: 1rem;
 
   /*font family*/
-  font-family: 'Montagu Slab', serif;
   font-family: 'Quicksand', sans-serif;
+  font-family: 'Montagu Slab', serif;
 
   /*intentions (optional)*/
+  --primary: var(--pink-bg);
+  --secondary: var(--pink-header);
+  --third: var(--pink-card);
+  --fourth: var(--pink-border);
+  --fifth: var(--pink-text);
+  --sixth: var(--pink-bottom); 
+  font-family: 'Montagu Slab', serif;
 }

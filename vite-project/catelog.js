@@ -79,11 +79,14 @@ const museums = [
   {
     name: "Pearl Harbor",
     description: "There is a reason that Pearl Harbor is the number one visitor destination in Hawaii and the USS Arizona Memorial is where your Pearl Harbor experience begins. Millions of people from all over the world come to this majestic setting to see for themselves where World War II began for the United States on December 7, 1941. The USS Arizona Memorial is a must-see destination for all individuals coming to Hawaii, drawing more than 1.7 million visitors each year from all over the world. Visitors are free to explore the grounds of the $65 million Pearl Harbor Visitor Center, which was expanded from the original 3 to 17 acres, in December of 2011. The USS Arizona Memorial is built over the remains of the sunken battleship USS Arizona, the final resting place for many of the 1,177 crewmen killed on December 7, 1941, when their ship was bombed by Japanese Naval Forces. This loss of life represents over half of the Americans killed during the worst naval disaster in American history.",
+    img: "/museum1.jpg",
   },
   {
     name: "Bishop Museum",
     description: "Honolulu’s Bishop Museum is Hawaii’s largest museum dedicated to studying and preserving the history of Hawaii and the Pacific. Originally designed to house the extensive collection of Hawaiian artifacts and royal family heirlooms of Princess Bernice Pauahi Bishop, a descendant of King Kamehameha I, the museum is now the premier natural and cultural history institution in the Pacific. One of Oahu’s most historic places, the museum holds millions of artifacts, documents and photos about Hawaii and other Polynesian cultures.",
+    img: "/museum2.jpg",
   },
+
 ];
 export { museums }
 
@@ -110,6 +113,24 @@ const cultures = [
 ];
 export { cultures }
 
+const histories = [
+  {
+    name: "Origins",
+    description: "The Hawaiian Islands were first settled as early as 400 C.E., when Polynesians 2000 miles away traveled to Hawaii’s Big Island in canoes. Highly skilled farmers and fishermen, Hawaiians lived in small communities ruled by chieftains. In 1820, Western traders and whalers came to the islands, bringing with them diseases that devastated the native Hawaiian population. In 1893, American colonists controlled Hawaii’s sugar-based economy, overthrew the kingdom and established the Republic of Hawaii.",
+    img: "/history1.jpeg",
+  },
+];
+export { histories }
+
+const nature = [
+  {
+    name: "Kalaupapa National Historical Park",
+    description: "It's quiet as you ride on your mule along the 2.9-mile trail to Kalaupapa Peninsula. The sheer cliffs overlook the Pacific, descending from 1,700 feet with Molokai's North Shore Pali just to the east—the tallest sea cliffs in the world as recorded by the Guinness Book of World Records, measuring 3,600 to 3,900 feet. Three miles, 26 switchbacks and 90 minutes of magnificent views later, you're back to sea level in the historic town of Kalaupapa, one of the most remote settlements in Hawaii.",
+    img: "/nature1.jpg",
+  },
+];
+export { nature }
+
 const volcanoes = [
   {
     name: "Hawaii Volcanoes National Park",
@@ -123,6 +144,15 @@ const volcanoes = [
   },
 ];
 export { volcanoes }
+
+const legends = [
+  {
+    name: "The Legend of Mokoli'l",
+    description: "Mokoli’i refers to 'little lizard', or the remnants of a tail of a legendary lizard whose back is very visible as the Kualoa mountain range. In fact, 'Kualoa' means 'long, large back', referring to the long large back of a giant lizard or dinosaur. Legend has it that Hi’iakaikapoliopele, one of the sisters to Pele, the goddess who lives at Halema’uma’u at the current volcano on Hawai’i island, passed through the Kualoa area one day. This large lizard or mo’o gave chase to her. She killed him, and one sign of this battle is the remnant tail in the ocean, still seen today.",
+    img: "/legend1.jpg",
+  },
+];
+export { legends }
 
 const islands = [
   {
