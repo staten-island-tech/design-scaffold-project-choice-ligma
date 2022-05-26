@@ -36,11 +36,9 @@
   --h5: 1rem;
 
   /*font family*/
-  --pink-font: font-family: 'Montagu Slab', serif;
-  --blue-font: font-family: 'Quicksand', sans-serif;
+
 
   /*intentions (optional)*/
-  
 }
 
 .pinktheme {
@@ -48,12 +46,16 @@
   --secondary: var(--pink-header);
   --third: var(--pink-card);
   --fourth: var(--pink-border);
+  --fifth: var(--white);
+  font-family: 'Montagu Slab', serif;
 }
 .bluetheme {
   --primary: var(--blue-bg);
   --secondary: var(--blue-header);
   --third: var(--blue-card);
-  --fourth: var(--blue-border);
+  --fourth: var(--blue-border); 
+  --fifth: var(--blue-text);
+  font-family: 'Quicksand', sans-serif;
 }
 
 .button {

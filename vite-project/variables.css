@@ -37,6 +37,13 @@
     border-radius: 0.8rem;
 }
 
+nav{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--fourth); 
+}
+
 .navbar-list {
     display: flex; 
     justify-content: space-evenly;
@@ -44,9 +51,18 @@
     margin-top: 2rem;
     align-items: center;
     flex-direction: row;
-    background-color: var(--pink-border);
     color: var(--white);
+    width: 50%;
+    font-size: var(--h3);
+}
+
+.navbar-list li{
     list-style: none;
+}
+
+.navbar-list a{
+    color: var(--white);
+    text-decoration: none; 
 }
 
 .navbar-list-sections{
@@ -97,7 +113,7 @@
 }
 
 .btn {
-    text-align: center;
+    align-items: center;
     font-family: var(--pink-font);
     padding: 1rem 2rem;
     border-radius: 2rem;
@@ -111,6 +127,7 @@
     justify-content: space-evenly;
     flex-direction: row;
     align-items: center;
+    width: 28%;
 }
 
 .island-img {
