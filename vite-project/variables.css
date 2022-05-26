@@ -186,7 +186,7 @@
         text-align: center;
     }
     .navbar-list-sections {
-        font-size: 2rem;
+        font-size: var(--h4);
     }
 }
 
