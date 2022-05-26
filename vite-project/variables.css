@@ -120,7 +120,7 @@
 }
 
 .card {
-    width: auto;
+    width: 65%;
     background-color: var(--third);
     border: 3px solid var(--fourth);
     box-sizing: border-box;
@@ -169,6 +169,10 @@
 
 .flex-card {
     width: 28%;
+}
+
+.row-card {
+    width: 45%;
 }
 
 @media only screen and (min-width: 1200px){

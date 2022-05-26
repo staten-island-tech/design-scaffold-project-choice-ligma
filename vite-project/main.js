@@ -51,7 +51,7 @@ foods.forEach((food, index) => {
 museums.forEach((museum, index) => {
   DOMSelectors.museumdisplay.insertAdjacentHTML(
     "beforeend",
-    `<div class="museums card" id="${index}">
+    `<div class="museums card row-card" id="${index}">
       <div class="name">${museum.name}</div> 
         <img class="img" src="${museum.img}" alt="${museum.name}">
         <p class="description">${museum.description}</p>
@@ -62,7 +62,7 @@ museums.forEach((museum, index) => {
 beaches.forEach((beach, index) => {
   DOMSelectors.beachdisplay.insertAdjacentHTML(
     "beforeend",
-    `<div class="beaches card" id="${index}">
+    `<div class="beaches card row-card" id="${index}">
       <div class="name">${beach.name}</div> 
       <img class="img" src="${beach.img}" alt="${beach.name}">
       <p class="description">${beach.description}</p>
@@ -106,7 +106,7 @@ nature.forEach((nature, index) => {
 volcanoes.forEach((volcano, index) => {
   DOMSelectors.volcanodisplay.insertAdjacentHTML(
     "beforeend",
-    `<div class="volcanoes card" id="${index}">
+    `<div class="volcanoes card row-card" id="${index}">
       <div class="name">${volcano.name}</div>
         <img class="img" src="${volcano.img}" alt="${volcano.name}">
         <p class="description">${volcano.description}</p>
