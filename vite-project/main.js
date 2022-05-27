@@ -1,8 +1,10 @@
 import './style.css'
-import { sections, foods, museums, beaches, cultures, histories, nature, volcanoes, legends, islands } from './catelog';
+import { foods, museums, beaches, cultures, histories, nature, volcanoes, legends, islands } from './catelog';
 import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
-const tl = gsap.timeline({ scrollTrigger: ".header-title", delay: 0.5 }); //sequence animations easily
+const tl = gsap.timeline({ ScrollTrigger: ".header-title", delay: 0.5 }); //sequence animations easily
 
 tl.from("#header", { opacity: 0, duration: 1, ease: "ease-out" });
 tl.from(".btn", { x: -1000, duration: 0.5, ease: "ease-out" });
