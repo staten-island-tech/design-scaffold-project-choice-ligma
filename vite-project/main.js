@@ -58,7 +58,7 @@ foods.forEach((food, index) => {
     "beforeend",
     `<div class="food card flex-card" id="${index}">
       <div class="name">${food.name}</div>
-      <img class="img" src="${food.img}" alt="${food.name}">
+      <img class="img" src="${food.img}" alt="${food.alt}">
       <p class="description">${food.description}</p>
     </div>`
   );
@@ -69,7 +69,7 @@ museums.forEach((museum, index) => {
     "beforeend",
     `<div class="museums card row-card" id="${index}">
       <div class="name">${museum.name}</div> 
-        <img class="img" src="${museum.img}" alt="${museum.name}">
+        <img class="img" src="${museum.img}" alt="${museum.alt}">
         <p class="description">${museum.description}</p>
     </div>`
   );
@@ -80,7 +80,7 @@ beaches.forEach((beach, index) => {
     "beforeend",
     `<div class="beaches card row-card" id="${index}">
       <div class="name">${beach.name}</div> 
-      <img class="img" src="${beach.img}" alt="${beach.name}">
+      <img class="img" src="${beach.img}" alt="${beach.alt}">
       <p class="description">${beach.description}</p>
       </div>`
   );
@@ -91,7 +91,7 @@ cultures.forEach((culture, index) => {
     "beforeend",
     `<div class="cultures card" id="${index}">
       <div class="name">${culture.name}</div> 
-      <img class="img" src="${culture.img}" alt="${culture.name}">
+      <img class="img" src="${culture.img}" alt="${culture.alt}">
       <p class="description">${culture.description}</p>
       </div>`
   );
@@ -102,7 +102,7 @@ histories.forEach((history, index) => {
     "beforeend",
     `<div class="history card" id="${index}">
       <div class="name">${history.name}</div> 
-      <img class="img" src="${history.img}" alt="${history.name}">
+      <img class="img" src="${history.img}" alt="${history.alt}">
       <p class="description">${history.description}</p>
       </div>`
   );
@@ -113,7 +113,7 @@ nature.forEach((nature, index) => {
     "beforeend",
     `<div class="nature card" id="${index}">
       <div class="name">${nature.name}</div> 
-      <img class="img" src="${nature.img}" alt="${nature.name}">
+      <img class="img" src="${nature.img}" alt="${nature.alt}">
       <p class="description">${nature.description}</p>
       </div>`
   );
@@ -124,7 +124,7 @@ volcanoes.forEach((volcano, index) => {
     "beforeend",
     `<div class="volcanoes card row-card" id="${index}">
       <div class="name">${volcano.name}</div>
-        <img class="img" src="${volcano.img}" alt="${volcano.name}">
+        <img class="img" src="${volcano.img}" alt="${volcano.alt}">
         <p class="description">${volcano.description}</p>
     </div>`
   );
@@ -135,7 +135,7 @@ legends.forEach((legend, index) => {
     "beforeend",
     `<div class="legends card" id="${index}">
       <div class="name">${legend.name}</div>
-      <img class="img" src="${legend.img}" alt="${legend.name}">
+      <img class="img" src="${legend.img}" alt="${legend.alt}">
       <p class="description">${legend.description}</p>
     </div>`
   );
@@ -146,7 +146,7 @@ islands.forEach((island, index) => {
     "beforeend",
     `<div class="islands card island-card flex-card" id="${index}">
       <div class="name">${island.name}</div>
-      <img class="island-img" src="${island.img}" alt="${island.name}">
+      <img class="island-img" src="${island.img}" alt="${island.alt}">
       <p class="description">${island.description}</p>
     </div>`
   );

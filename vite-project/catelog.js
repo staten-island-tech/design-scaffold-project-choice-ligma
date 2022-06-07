@@ -3,16 +3,19 @@ const foods = [
     name: "All-Natural Shave Ice",
     description: "Hawaii’s iconic frozen treat is now part of the Islands’ farm-to-table movement. It’s becoming easier to get a bowl of finely shaved ice over which housemade, all natural, locally sourced syrups are generously poured. In many ways, this evolved shave ice recaptures the cool cones’ history. Japanese laborers, contracted to work in Hawaii sugar and pineapple fields, brought shave ice with them. Plantation workers would use their machetes to finely shave the ice from large ice blocks, then pour fruit juice over the fluffy ice.",
     img: "/food1.jpg",
+    alt: "Hand holds bowl of shaved ice and ice cream with pieces of strawberries and pineapples.",
   },
   {
     name: "Poke",
     description: "Perennially beloved by locals and visitors alike, poke is a rich dish full of flavorful, simple ingredients. Most versions use ahi tuna, chopped into small cubes and combined with onions, sesame seeds, limu seaweed and soy sauce. Sometimes, they substitute other freshwater fish or even octopus instead. The dish is so popular that it has made its way across the ocean, showing up in eateries all along the mainland.",
     img: "/food2.jpg",
+    alt: "Bowl has rice, sliced avocadoes, pineapple, edamame beans, and cubes of raw fish.",
   },
   {
     name: "Poi",
     description: "The staple and traditional filler starch dish in Hawaiian cuisine is something known as poi. Poi is a thick paste made from taro root (similar to a yam or potato but with a starchy-er flavor) that is either steamed or baked and pounded. While pounding, water is added to the mixture to create a very sticky pudding-like consistency. Poi has a unique flavor, it’s starchy and slightly sour from the light fermentation in the preparation process.",
     img: "/food3.jpg",
+    alt: "Wooden bowl with leaves lining the inside and a grey mixture.",
   },
 ];
 export { foods }
@@ -22,11 +25,13 @@ const museums = [
     name: "Pearl Harbor",
     description: "There is a reason that Pearl Harbor is the number one visitor destination in Hawaii and the USS Arizona Memorial is where your Pearl Harbor experience begins. Millions of people from all over the world come to this majestic setting to see for themselves where World War II began for the United States on December 7, 1941. The USS Arizona Memorial is a must-see destination for all individuals coming to Hawaii, drawing more than 1.7 million visitors each year from all over the world. Visitors are free to explore the grounds of the $65 million Pearl Harbor Visitor Center, which was expanded from the original 3 to 17 acres, in December of 2011. The USS Arizona Memorial is built over the remains of the sunken battleship USS Arizona, the final resting place for many of the 1,177 crewmen killed on December 7, 1941, when their ship was bombed by Japanese Naval Forces. This loss of life represents over half of the Americans killed during the worst naval disaster in American history.",
     img: "/museum1.jpg",
+    alt: "Outside of the USS Arizona Memorial, a white building over the water with an American flag in the background.",
   },
   {
     name: "Bishop Museum",
     description: "Honolulu’s Bishop Museum is Hawaii’s largest museum dedicated to studying and preserving the history of Hawaii and the Pacific. Originally designed to house the extensive collection of Hawaiian artifacts and royal family heirlooms of Princess Bernice Pauahi Bishop, a descendant of King Kamehameha I, the museum is now the premier natural and cultural history institution in the Pacific. One of Oahu’s most historic places, the museum holds millions of artifacts, documents and photos about Hawaii and other Polynesian cultures.",
     img: "/museum2.jpg",
+    alt: "Outside of a large brown building with leafy trees and bushes in the front."
   },
 
 ];
