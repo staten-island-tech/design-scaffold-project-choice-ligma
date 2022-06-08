@@ -42,11 +42,13 @@ const beaches = [
     name: "Waikiki Beach",
     description: "For those who love the beach, look no further than Waikiki. With its long stretch of white sand and turquoise blue water, everyone enjoys this paradise for swimming, surfing, snorkeling, and more. From Hilton Hawaiian Village on the west side to Kapi’olani Park in the east, Waikiki boasts a beautiful tropical climate with tons of activities and events for all ages. Find more high-rises, high-end restaurants, and resorts pepper along this popular destination’s borders. It really should be known as Waikiki Beaches, with the many different sections that make up this two-mile stretch of white sand.  Together, these beach sections make what everyone refers to as Waikiki Beach, one of the busiest and most cosmopolitan spots in Oahu where a plethora of activities geared towards tourists seem to go on all day and most of the night. Whether you are looking forward to surfing, canoe paddling, snorkeling, swimming, boogie boarding, sand combing, catching a golden tan, people watching, or marveling at a few beautiful Waikiki sunsets, it’s very easy to have a good time on the different areas of Waikiki Beach.",
     img: "/beach1.jpg",
+    alt: "Beach and buildings on the left and a mountain in the background, with the ocean on the right.",
   },
   {
     name: "Makena Beach",
     description: "Makena Beach State Park is one of Maui's signature beaches. With white sands extending nearly 2/3 of a mile long, it is one of the largest, undeveloped beaches in Maui. Enjoy relaxing on the beach with only nature in sight. Nestled between two black-lava outcroppings, Makena offers protection from the trade winds and provides great views of the islands of Molokini and Kahoolawe. The area is divided into two beaches known as Big Beach and Little Beach. Big Beach is located south of Wailea near the Makena Beach and Golf Resort and provides a secluded alternative to more crowded beaches in Kaanapali and Lahaina. Little Beach is a small cove without amenities and no lifeguard. Although state park regulations prohibit nudity, Little Beach is frequently used as a nude beach.",
     img: "/beach2.jpg",
+    alt: "Beach shoreline bordering a hill with a clear blue ocean.",
   },
 ];
 export { beaches }
@@ -56,6 +58,7 @@ const cultures = [
     name: "Hula",
     description: "On its surface, hula is the storytelling dance of the Hawaiian Islands. Hula can be paired with chants or contemporary music, slow and sentimental in tempo or fast and energetic. But no matter its style, it is all part of a cultural practice of sharing a trove of stories that connect dancers and audiences to the foundation of Hawaiian ancestral knowledge. Hula animates history, genealogy, prophecy, and the tales of those who came before.For dancers who connect more deeply through their hula traditions, dance is just one part of the practice, which often involves stewardship of the environment. For example, there may be a reciprocal relationship where dancers care for the forests, which in turn provide for them, including ferns, maile and other materials to make lei and garb that enliven the performance. Practices differ from halau (hula school) to halau, but they all aim to create a tangible, personal connection between the dancer, the stories he or she is dancing about, and the legendary origins of hula itself.Hula kahiko is traditionally performed as part of or as an extension of a ceremony, set to an oli (chant) and accompanied by percussion instruments. While many of the oli we hear along with hula kahiko are compositions from generations ago, there are also new oli and accompanying hula composed today. To call hula “ancient” improperly implies that the art is static. Rather, hula kahiko has strong roots in the past and continues to grow in modern Hawaii. Hula auana is a less formal hula, performed without ceremony. Around the turn of the 20th century, more new hula began to emerge in this less formal style. A story is told with the accompaniment of song and stringed instruments such as guitar, bass, steel guitar and ukulele.",
     img: "/culture1.jpg",
+    alt: "Women dressed in skirts and flower leis raise their arms as they dance on the beach at sunset.",
   },
 ];
 export { cultures }
@@ -65,6 +68,7 @@ const histories = [
     name: "Origins",
     description: "The Hawaiian Islands were first settled as early as 400 C.E., when Polynesians 2000 miles away traveled to Hawaii’s Big Island in canoes. Highly skilled farmers and fishermen, Hawaiians lived in small communities ruled by chieftains. In 1820, Western traders and whalers came to the islands, bringing with them diseases that devastated the native Hawaiian population. In 1893, American colonists controlled Hawaii’s sugar-based economy, overthrew the kingdom and established the Republic of Hawaii.",
     img: "/history1.jpeg",
+    alt: "Black and white drawing shows early settlers of Hawaii living by the ocean, with trees and houses in the background.",
   },
 ];
 export { histories }
@@ -74,6 +78,7 @@ const nature = [
     name: "Kalaupapa National Historical Park",
     description: "It's quiet as you ride on your mule along the 2.9-mile trail to Kalaupapa Peninsula. The sheer cliffs overlook the Pacific, descending from 1,700 feet with Molokai's North Shore Pali just to the east—the tallest sea cliffs in the world as recorded by the Guinness Book of World Records, measuring 3,600 to 3,900 feet. Three miles, 26 switchbacks and 90 minutes of magnificent views later, you're back to sea level in the historic town of Kalaupapa, one of the most remote settlements in Hawaii.",
     img: "/nature1.jpg",
+    alt: "Mountains covered in green trees seen from an aerial view.",
   },
 ];
 export { nature }
@@ -82,12 +87,14 @@ const volcanoes = [
   {
     name: "Hawaii Volcanoes National Park",
     description: "Hawaii Volcanoes National Park encompasses 335,259 acres or about 523 square miles from the summit of Maunaloa to the sea (by comparison, the island of Oahu is 597 square miles). Discover 150 miles of hiking trails through volcanic craters, scalded deserts and rainforests, as well as a visitor center, petroglyphs and two active volcanoes: Maunaloa, which last erupted in 1984 and and Kilauea which last erupted in 2018 (1983-2018). Kilauea is often called 'the world's only drive-in volcano.' At one time, this prolific volcano produced 250,000-650,00 cubic yards of lava per day - enough to resurface a 20-mile-long, two-lane road each day. As of January 1983, more than 875 acres of new land has been created on the island of Hawaii.The extraordinary natural diversity of the park was recognized in 1980 when it was named a World Biosphere Site by UNESCO and in 1987 when the park was honored as a World Heritage Site.",
-    img: "/volcano1.jpg"
+    img: "/volcano1.jpg",
+    alt: "Top of a volcano with smoke coming out of a hole in it.",
   },
   {
     name: "Diamond Head",
     description: "The unique profile of Diamond Head (Lē‘ahi) sits prominently near the eastern edge of Waikiki’s coastline. Hawaii’s most recognized landmark is known for its historic hiking trail, stunning coastal views, and military history. Diamond Head State Monument encompasses over 475 acres, including the interior and outer slopes of the crater.This broad, saucer-shaped crater was formed about 300,000 years ago during a single, explosive eruption that sent ash and fine particles in the air. As these materials settled, they cemented together into a rock called tuff, creating the crater, which is visible from the trail in the park. Most of the vegetation and birds were introduced in the late 1800s to early 1900s.The trail to the summit of Lē‘ahi was built in 1908 as part of Oahu’s coastal defense system. The 0.8 mile hike from trailhead to the summit is steep and strenuous, gaining 560 feet as it ascends from the crater floor. The walk is a glimpse into the geological and military history of Diamond Head.",
-    img: "/volcano2.jpg"
+    img: "/volcano2.jpg",
+    alt: "Large volcano crater with trees inside and a city on the outside, next to the ocean.",
   },
 ];
 export { volcanoes }
@@ -97,6 +104,7 @@ const legends = [
     name: "The Legend of Mokoli'l",
     description: "Mokoli’i refers to 'little lizard', or the remnants of a tail of a legendary lizard whose back is very visible as the Kualoa mountain range. In fact, 'Kualoa' means 'long, large back', referring to the long large back of a giant lizard or dinosaur. Legend has it that Hi’iakaikapoliopele, one of the sisters to Pele, the goddess who lives at Halema’uma’u at the current volcano on Hawai’i island, passed through the Kualoa area one day. This large lizard or mo’o gave chase to her. She killed him, and one sign of this battle is the remnant tail in the ocean, still seen today.",
     img: "/legend1.jpg",
+    alt: "Art shows a giant old man sitting underwater, with his hat as an island on the surface.",
   },
 ];
 export { legends }
@@ -106,31 +114,37 @@ const islands = [
     name: "Kauai",
     description: "Kauai is Hawaii's fourth largest island and is sometimes called the 'Garden Island', which is an entirely accurate description. The oldest and northernmost island in the Hawaiian chain is draped in emerald valleys, sharp mountain spires and jagged cliffs aged by time and the elements. Centuries of growth have formed tropical rainforests, forking rivers and cascading waterfalls! Some parts of Kauai are only accessible by sea or air, revealing views beyond your imagination. More than just dramatic beauty, the island is home to a variety of outdoor activities. You can kayak the Wailua River, snorkel on Poipu Beach, hike the trails of Kokee State Park, or go ziplining above Kauai's lush valleys.",
     img: "/island1.jpg",
+    alt: "View of the shoreline with mountains behind it.",
   },
   {
     name: "Oahu",
     description: "Sometimes called 'The Gathering Place', Oahu certainly lives up to its name. The third largest Hawaiian island is home to the majority of Hawaii’s diverse population, a fusion of East and West cultures rooted in the values and traditions of the Native Hawaiian people. It’s this fundamental contrast between the ancient and the modern that makes discovering Oahu — from bustling city life to laidback surf towns — so enjoyable. You'll find plenty of different options for exploring Oahu's different regions, the island's many activities, its eclectic restaurants and accommodations.",
     img: "/island2.jpg",
+    alt: "Buildings and a beach border the ocean.",
   },
   {
     name: "Molokai",
     description: "Hawaii’s fifth largest island, Molokai is only 38 miles long and 10 miles across at its widest point and is home to the highest sea cliffs in the world and the longest continuous fringing reef. Molokai remains true to its island roots, with a high percentage of its population being of Native Hawaiian ancestry who continue to preserve their rural lifestyle thanks to their love of the land. Whether you’re led by a guide along the cliffs leading to Kalaupapa National Historical Park or discovering Papohaku Beach, one of Hawaii’s largest white-sand beaches, Molokai is truly an island of outdoor adventure where Hawaii’s past comes alive! Check out the regions of Molokai for yourself.",
     img: "/island3.jpg",
+    alt: "Bright green fields and mountains are next to the ocean.",
   },
   {
     name: "Lanai",
     description: "The smallest inhabited island travelers may visit in Hawaii, Lanai offers big enticements to its visitors. Only nine miles from Maui yet a world away, Lanai can feel like two places. The first is found in luxurious resorts where visitors can indulge in world-class amenities and championship-level golf. The other is found bouncing along the island’s rugged back roads in a 4-wheel-drive vehicle to explore off-the-beaten-path treasures. You’re sure to find serenity, adventure and privacy on any of the three regions of Lanai.",
     img: "/island4.jpg",
+    alt: "Rocky beach and green hill next to the ocean.",
   },
   {
     name: "Maui",
     description: "Maui, known also as 'The Valley Isle', is the second largest Hawaiian island. The island beloved for its world-famous beaches, the sacred Iao Valley, views of migrating humpback whales (during winter months), farm-to-table cuisine and the magnificent sunrise and sunset from Haleakala. It’s not surprising Maui has been voted 'Best Island in the U.S.' by Condé Nast Traveler readers for more than 20 years. Check out the regions of Maui and all this island has to offer.",
     img: "/island5.jpg",
+    alt: "Hill with coconut trees and a mountain in the back, with rough waves in the ocean.",
   },
   {
     name: "Big Island",
     description: "The island of Hawaii is the youngest and largest island in the Hawaiian chain. Nearly twice as big as all of the other Hawaiian Islands combined (hence, its nickname, “Big Island”), its sheer size is awe-inspiring. You can travel through all but four of the world's different climate zones here, ranging from Wet Tropical to Polar Tundra, a result of the shielding effect and elevations of the massive volcanoes Maunakea and Maunaloa. From the many geological features at Hawaii Volcanoes National Park to the snow-capped heights of Maunakea; from the lush valleys of the Hilo and Hamakua Coasts to the jet-black sands of Punaluu Beach, the island of Hawaii is an unrivaled expression of the power of nature.",
     img: "/island6.jpeg",
+    alt: "Green mountains are in the background and a town can be seen leading up to the shore, with an ocean in the front.",
   },
 ];
 export { islands }
