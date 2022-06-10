@@ -1,9 +1,11 @@
-*, html, body {
+*,
+html,
+body {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
     font-size: 62.5%;
-} 
+}
 
 .pinktheme {
     --primary: var(--pink-bg);
@@ -11,7 +13,7 @@
     --third: var(--pink-card);
     --fourth: var(--pink-border);
     --fifth: var(--pink-text);
-    --sixth: var(--pink-bottom); 
+    --sixth: var(--pink-bottom);
     font-family: 'Montagu Slab', serif;
 }
 
@@ -19,9 +21,9 @@
     --primary: var(--blue-bg);
     --secondary: var(--blue-header);
     --third: var(--blue-card);
-    --fourth: var(--blue-border); 
+    --fourth: var(--blue-border);
     --fifth: var(--blue-text);
-    --sixth: var(--blue-ellipse); 
+    --sixth: var(--blue-ellipse);
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -49,27 +51,27 @@
     padding: 1rem 2rem;
     border-radius: 2rem;
     background-color: var(--sixth);
-    margin-bottom: 3rem; 
+    margin-bottom: 3rem;
     font-size: var(--h4);
 }
 
 .btn:hover {
-    background: var(--white); 
+    background: var(--white);
     transition: 0.3s;
 }
 
-.navbar{
+.navbar {
     position: fixed;
     top: 0%;
-    display: flex; 
+    display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--fourth); 
+    background-color: var(--fourth);
     width: 100%;
 }
 
 .navbar-list {
-    display: flex; 
+    display: flex;
     justify-content: space-evenly;
     padding: 1rem;
     align-items: center;
@@ -77,21 +79,21 @@
     width: 100%;
 }
 
-.navbar-list li{
+.navbar-list li {
     list-style: none;
 }
 
-.navbar-list a{
+.navbar-list a {
     color: var(--fifth);
-    text-decoration: none; 
+    text-decoration: none;
 }
 
-.navbar-list-sections{
+.navbar-list-sections {
     font-size: var(--h3);
-} 
+}
 
-.navbar-list-sections:hover{
-    text-decoration: underline; 
+.navbar-list-sections:hover {
+    text-decoration: underline;
     font-weight: 800;
     transition: 0.3s;
 }
@@ -108,7 +110,7 @@
     text-align: center;
     color: var(--fourth);
     font-size: var(--h2);
-    padding: 2rem; 
+    padding: 2rem;
     padding-bottom: 0%;
 }
 
@@ -116,7 +118,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    flex-direction: row; 
+    flex-direction: row;
 }
 
 .card {
@@ -129,20 +131,20 @@
     padding: 2rem;
     border-radius: 1rem;
 }
-  
+
 .img {
     align-content: center;
     width: 95%;
     margin-bottom: 1rem;
 }
-  
+
 .name {
     text-align: center;
     color: var(--fifth);
     font-size: var(--h3);
     margin-bottom: 1rem;
 }
-  
+
 .description {
     font-family: var(--pink-font);
     color: var(--fifth);
@@ -154,7 +156,7 @@
     padding: 4rem;
     background-color: var(--pink-bottom);
 }
-  
+
 .whales {
     margin-left: 45rem;
     width: 12rem;
@@ -175,67 +177,93 @@
     width: 45%;
 }
 
-@media only screen and (min-width: 1200px){
-    *,html,body{
+@media only screen and (min-width: 1200px) {
+
+    *,
+    html,
+    body {
         text-align: center;
     }
 }
 
-@media only screen and (max-width: 1200px){
-    *,html,body{
+@media only screen and (max-width: 1200px) {
+
+    *,
+    html,
+    body {
         text-align: center;
     }
+
     .navbar-list-sections {
         font-size: 2rem;
     }
 }
 
-@media only screen and (max-width: 650px){
-    *,html,body{
+@media only screen and (max-width: 650px) {
+
+    *,
+    html,
+    body {
         text-align: center;
-    } 
-    h1{
+    }
+
+    h1 {
         font-size: var(--h2);
     }
-    h2{
+
+    h2 {
         font-size: var(--h3);
     }
-    h3{
+
+    h3 {
         font-size: var(--h4);
     }
-    h4{
+
+    h4 {
         font-size: var(--h5);
     }
-    h5{
+
+    h5 {
         font-size: 1.15rem;
     }
+
     .navbar-list-sections {
         font-size: var(--h4);
     }
-    .card{
+
+    .card {
         width: 80%;
     }
 }
 
-@media only screen and (max-width: 550px){
-    *,html,body{
+@media only screen and (max-width: 550px) {
+
+    *,
+    html,
+    body {
         text-align: center;
-    } 
-    h1{
+    }
+
+    h1 {
         font-size: var(--h3);
     }
-    h2{
+
+    h2 {
         font-size: var(--h4);
     }
-    h3{
+
+    h3 {
         font-size: var(--h5);
     }
-    h4{
+
+    h4 {
         font-size: 1.15rem;
     }
-    h5{
+
+    h5 {
         font-size: 0.75rem;
     }
+
     .navbar-list-sections {
         font-size: var(--h5);
     }
