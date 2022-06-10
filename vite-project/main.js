@@ -1,34 +1,14 @@
 import './style.css'
 import { foods, museums, beaches, cultures, histories, nature, volcanoes, legends, islands } from './catelog';
 import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Flip } from "gsap/Flip";
-gsap.registerPlugin(ScrollTrigger, Flip);
 
 const tl = gsap.timeline({ scrollTrigger: ".header-title", delay: 0.5 }); //sequence animations easily
 
 tl.from("#header", { opacity: 0, duration: 1, ease: "ease-out" });
 tl.from(".btn", { x: -1000, duration: 0.5, ease: "ease-out" });
-tl.from(".parent", { duration: 1, flip: "flip" });
-
-gsap.utils.toArray('.card').forEach((top, index) => { 
-  let tl = gsap.timeline({
-    scrollTrigger: {
-      trigger: el,
-      start: "top top",
-      toggleActions: "play none none reverse",
-       markers: true
-    }
-  })
-  tl
-  .set(el, {transformOrigin: 'center center'})
-  .fromTo(el, { opacity: 0, scale: 0.8, y: "+=100"}, {opacity: 1, scale: 1, y: 0, duration: 1, immediateRender: false})
-})
-
-
 
 const DOMSelectors = {
-  card: document.querySelector(".card"),
+  cards: document.querySelector(".card"),
   display: document.querySelector(".info"),
   fooddisplay: document.getElementById("foods"),
   museumdisplay: document.getElementById("museums"),
@@ -150,4 +130,10 @@ islands.forEach((island, index) => {
       <p class="description">${island.description}</p>
     </div>`
   );
+});
+
+gsap.utils.toArray(".card").forEach(card => {
+  let hover = gsap.to(card, { scale: 1.12, duration: 0.75, paused: true, ease: "power1.inOut" });
+  card.addEventListener("mouseenter", () => hover.play());
+  card.addEventListener("mouseleave", () => hover.reverse());
 });
