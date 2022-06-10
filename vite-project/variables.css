@@ -14,6 +14,7 @@ body {
     --fourth: var(--pink-border);
     --fifth: var(--pink-text);
     --sixth: var(--pink-bottom);
+    --seventh: var(--pink-title);
     font-family: 'Montagu Slab', serif;
 }
 
@@ -24,6 +25,7 @@ body {
     --fourth: var(--blue-border);
     --fifth: var(--blue-text);
     --sixth: var(--blue-ellipse);
+    --seventh: var(--blue-title);
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -108,7 +110,7 @@ body {
 
 .title {
     text-align: center;
-    color: var(--fourth);
+    color: var(--seventh);
     font-size: var(--h2);
     padding: 2rem;
     padding-bottom: 0%;

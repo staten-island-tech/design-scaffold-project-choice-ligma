@@ -10,12 +10,14 @@
   --pink-header: #ffb3c6;
   --pink-card: #ff8fab;
   --pink-border: #fb6f92;
+  --pink-title: #fd4775;
   --pink-bottom: #ffc2d1;
   --pink-text: #000000;
 
   /*theme 2*/
   --blue-bg: #caf0f8;
   --blue-border: #00ccf5;
+  --blue-title: #00ccf5;
   --blue-header: #0ad6ff;
   --blue-card: #90e0ef;
   --blue-ellipse: #ade8f4;
@@ -39,5 +41,6 @@
   --fourth: var(--pink-border);
   --fifth: var(--pink-text);
   --sixth: var(--pink-bottom);
+  --seventh: var(--pink-title);
   font-family: 'Montagu Slab', serif;
 }
